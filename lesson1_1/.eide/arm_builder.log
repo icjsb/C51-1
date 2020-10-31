@@ -1,0 +1,96 @@
+[2020-10-28 11:59:16]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\main.c", exit code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 12:16:39]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 12:20:00]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 12:30:34]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 12:30:55]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 12:31:02]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 23:06:42]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\1.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 23:07:23]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\1.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 23:08:42]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\1.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 23:09:40]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\1.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 23:46:12]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\1.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 23:47:22]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\1.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-28 23:50:36]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\1.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:10:53]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:11:14]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:12:33]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:12:45]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:14:28]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:15:26]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:15:59]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:18:04]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:18:41]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:19:05]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:19:17]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:19:26]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:19:33]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:20:48]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:22:10]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:23:42]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:26:06]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-30 19:26:47]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_2.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-10-31 18:03:15]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_1.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
