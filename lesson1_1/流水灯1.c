@@ -5,7 +5,7 @@ void main()
     while(1)
     {
        P1=0xfe;
-       for(i=0;i<10000;i++);
+       for(i=0;i<10000;i++);//1mov 1clr 10000inc 10000cjne 30002
        P1=0xfd;
        for(i=0;i<10000;i++);
        P1=0xfb;

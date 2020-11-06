@@ -94,3 +94,132 @@
 [2020-10-31 18:03:15]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\lesson2_1.c", exit code: 2
    在 ARM_Builder_V6.Program.Main(String[] args)
 
+[2020-11-01 14:30:30]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:30:39]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:30:43]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:42:55]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:43:07]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:43:43]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:44:00]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:45:13]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:45:28]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:45:37]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:50:58]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:51:08]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:58:27]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:59:04]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 14:59:34]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-01 20:02:57]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-04 21:02:01]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-04 21:49:42]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:34:36]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:34:43]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:49:58]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:51:02]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:52:39]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:54:23]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:55:22]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:56:27]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:56:48]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:57:00]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 18:57:12]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:01:09]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:01:38]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:02:06]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:11:04]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:11:49]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:11:54]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:12:04]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:12:31]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:12:53]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:12:59]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-05 19:13:20]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-06 18:25:06]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-06 18:51:02]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-06 18:51:12]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+

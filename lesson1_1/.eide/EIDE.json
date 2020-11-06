@@ -49,9 +49,7 @@
     "srcDirs": [
         ".\\src"
     ],
-    "excludeList": [
-        ".\\src\\流水灯3.c"
-    ],
+    "excludeList": [],
     "outDir": ".\\out",
     "uploadConfig": {
         "bin": ".\\out\\Release\\lesson1_1.hex",
@@ -59,6 +57,6 @@
         "options": ".eide/stc.flash.json"
     },
     "miscInfo": {
-        "lastBuildTime": 1604147317550
+        "lastBuildTime": 1604668524112
     }
 }
