@@ -19,3 +19,8 @@ void music(int hz,float yinfu)
     while(x--);
     }
 }
+void pause(float yinfu)
+{
+   int time=(60.0/basicspeed*yinfu)/(jq*10);
+   while(time--);
+}
