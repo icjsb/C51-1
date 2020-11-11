@@ -1,4 +1,5 @@
 #include"note.h"
+#include"music.h"
 void happybirthday()
 {
      basicspeed=120;

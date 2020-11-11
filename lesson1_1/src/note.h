@@ -34,4 +34,5 @@
 #define h6 1760
 #define h6u 1865
 #define h7 1976
-#define hh1 2092
+#define hh1 2093
+#define hh2 2350

@@ -1,4 +1,4 @@
-LX51 LINKER/LOCATER V4.41                                                               11/07/2020  11:37:21  PAGE 1
+LX51 LINKER/LOCATER V4.41                                                               11/10/2020  21:11:47  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.41, INVOKED BY:
@@ -7,27 +7,13 @@ D:\CHIPENVIRONMENT\KEIL\C51\BIN\LX51.EXE .\OUT\RELEASE\·äÃùÆ÷.O TO .\OUT\RELEASE
 
 
 CPU MODE:     8051 MODE
-MEMORY MODEL: SMALL WITH FLOATING POINT ARITHMETIC
+MEMORY MODEL: SMALL
 
 
 INPUT MODULES INCLUDED:
   .\OUT\RELEASE\·äÃùÆ÷.O (·_Ã_Æ÷)
          COMMENT TYPE 0: C51 V9.00
-  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPMUL)
-         COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPDIV)
-         COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FCAST)
-         COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?CASTF)
-         COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPGETOPN)
-         COMMENT TYPE 1: A51 / ASM51 Assembler
   D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
-         COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C?LNEG)
-         COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C_INIT)
          COMMENT TYPE 1: A51 / ASM51 Assembler
 
 
@@ -35,9 +21,9 @@ ACTIVE MEMORY CLASSES OF MODULE:  .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
 
 BASE        START       END         USED      MEMORY CLASS
 ==========================================================
-C:000000H   C:000000H   C:00FFFFH   000310H   CODE
-I:000000H   I:000000H   I:00007FH   00000EH   DATA
+C:000000H   C:000000H   C:00FFFFH   000013H   CODE
 I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+I:000000H   I:000000H   I:00007FH   000008H   DATA
 
 
 MEMORY MAP OF MODULE:  .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
@@ -48,27 +34,14 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 
 * * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
 000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
-000008H   00000DH   000006H   BYTE   UNIT     DATA           ?DT?·_Ã_Æ÷
-00000EH   00000EH   000001H   BYTE   UNIT     IDATA          ?STACK
+000008H   000008H   000001H   BYTE   UNIT     IDATA          ?STACK
 
 * * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
 000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
 000003H   0007FFH   0007FDH   ---    ---      **GAP**
-000800H   000A72H   000273H   BYTE   UNIT     CODE           ?C?LIB_CODE
-000A73H   000AFEH   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
-000AFFH   000B05H   000007H   BYTE   UNIT     CODE           ?PR?MAIN?·_Ã_Æ÷
-000B06H   000B0CH   000007H   BYTE   UNIT     CODE           ?C_INITSEG
-
-* * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
-   *DEL*:           000033H   BYTE   UNIT     CODE           ?PR?_CAL?·_Ã_Æ÷
-   *DEL*:           00007EH   BYTE   UNIT     CODE           ?PR?_MUSIC?·_Ã_Æ÷
-   *DEL*:           00000AH   BYTE   UNIT     DATA           ?DT?_MUSIC?·_Ã_Æ÷
-   *DEL*:           000068H   BYTE   UNIT     CODE           ?PR?_PAUSE?·_Ã_Æ÷
-   *DEL*:           000004H   BYTE   UNIT     DATA           ?DT?_PAUSE?·_Ã_Æ÷
-   *DEL*:           000156H   BYTE   UNIT     CODE           ?PR?HAPPYBIRTHDAY?·_Ã_Æ÷
-
-LX51 LINKER/LOCATER V4.41                                                             11/07/2020  11:37:21  PAGE 2
-
+000800H   00080BH   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+00080CH   00080EH   000003H   BYTE   UNIT     CODE           ?PR?MAIN?·_Ã_Æ÷
+00080FH   00080FH   000001H   BYTE   UNIT     CODE           ?PR?A?·_Ã_Æ÷
 
 
 
@@ -80,11 +53,11 @@ FUNCTION/MODULE              BIT_GROUP   DATA_GROUP
 ====================================================
 ?C_C51STARTUP               ----- -----  ----- -----
   +--> ?PR?MAIN?·_Ã_Æ÷
-  +--> ?C_INITSEG
 
 MAIN/·_Ã_Æ÷                 ----- -----  ----- -----
+  +--> ?PR?A?·_Ã_Æ÷
 
-?C_INITSEG                  ----- -----  ----- -----
+A/·_Ã_Æ÷                    ----- -----  ----- -----
 
 
 
@@ -93,31 +66,15 @@ PUBLIC SYMBOLS OF MODULE:  .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
 
       VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
       =================================================
-*DEL*:00000000H   DATA     BYTE      ?_music?BYTE
-      010009E4H   CODE     ---       ?C?CASTF
       00000000H   NUMBER   ---       ?C?CODESEG
-      010009B0H   CODE     ---       ?C?FCASTC
-      010009ABH   CODE     ---       ?C?FCASTI
-      010009A6H   CODE     ---       ?C?FCASTL
-      01000909H   CODE     ---       ?C?FPDIV
-      01000A1BH   CODE     ---       ?C?FPGETOPN2
-      01000800H   CODE     ---       ?C?FPMUL
-      01000A50H   CODE     ---       ?C?FPNANRESULT
-      01000A5AH   CODE     ---       ?C?FPOVERFLOW
-      01000A32H   CODE     ---       ?C?FPRESULT
-      01000A46H   CODE     ---       ?C?FPRESULT2
-      01000A57H   CODE     ---       ?C?FPUNDERFLOW
-      01000A65H   CODE     ---       ?C?LNEG
+LX51 LINKER/LOCATER V4.41                                                             11/10/2020  21:11:47  PAGE 2
+
+
       00000000H   NUMBER   ---       ?C?XDATASEG
-      01000ABAH   CODE     ---       ?C_START
+      0100080CH   CODE     ---       ?C_START
       01000000H   CODE     ---       ?C_STARTUP
-*DEL*:00000000H   CODE     ---       _cal
-*DEL*:0000000EH   CODE     ---       _music
-*DEL*:00000000H   CODE     ---       _pause
-      00000008H   DATA     INT       basicspeed
-*DEL*:00000000H   CODE     ---       happybirthday
-      0000000AH   DATA     FLOAT     jq
-      01000AFFH   CODE     ---       main
+      0100080FH   CODE     ---       a
+      0100080CH   CODE     ---       main
 
 
 
@@ -126,52 +83,21 @@ SYMBOL TABLE OF MODULE:  .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
       VALUE       REP       CLASS    TYPE      SYMBOL NAME
       ====================================================
       ---         MODULE    ---      ---       ·_Ã_Æ÷
-      0000000AH   PUBLIC    DATA     FLOAT     jq
-      00000008H   PUBLIC    DATA     INT       basicspeed
-      01000AFFH   PUBLIC    CODE     ---       main
-      00000006H   SYMBOL    DATA     VOID      ci
-      00000006H   SYMBOL    DATA     VOID      time
+      0100080CH   PUBLIC    CODE     ---       main
+      0100080FH   PUBLIC    CODE     ---       a
 
-      01000AFFH   BLOCK     CODE     ---       LVL=0
+      0100080FH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-LX51 LINKER/LOCATER V4.41                                                             11/07/2020  11:37:21  PAGE 3
-
-
-      ---         MODULE    ---      ---       ?C?FPMUL
-      01000800H   PUBLIC    CODE     ---       ?C?FPMUL
-
-      ---         MODULE    ---      ---       ?C?FPDIV
-      01000909H   PUBLIC    CODE     ---       ?C?FPDIV
-
-      ---         MODULE    ---      ---       ?C?FCAST
-      010009B0H   PUBLIC    CODE     ---       ?C?FCASTC
-      010009ABH   PUBLIC    CODE     ---       ?C?FCASTI
-      010009A6H   PUBLIC    CODE     ---       ?C?FCASTL
-
-      ---         MODULE    ---      ---       ?C?CASTF
-      010009E4H   PUBLIC    CODE     ---       ?C?CASTF
-
-      ---         MODULE    ---      ---       ?C?FPGETOPN
-      01000A1BH   PUBLIC    CODE     ---       ?C?FPGETOPN2
-      01000A50H   PUBLIC    CODE     ---       ?C?FPNANRESULT
-      01000A5AH   PUBLIC    CODE     ---       ?C?FPOVERFLOW
-      01000A32H   PUBLIC    CODE     ---       ?C?FPRESULT
-      01000A46H   PUBLIC    CODE     ---       ?C?FPRESULT2
-      01000A57H   PUBLIC    CODE     ---       ?C?FPUNDERFLOW
+      0100080CH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
 
       ---         MODULE    ---      ---       ?C_STARTUP
       01000000H   PUBLIC    CODE     ---       ?C_STARTUP
 
-      ---         MODULE    ---      ---       ?C?LNEG
-      01000A65H   PUBLIC    CODE     ---       ?C?LNEG
-
-      ---         MODULE    ---      ---       ?C_INIT
-      01000ABAH   PUBLIC    CODE     ---       ?C_START
-
 ******************************************************************************
-* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 027CH BYTE (31%) *
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0004H BYTE ( 0%) *
 ******************************************************************************
 
-Program Size: data=15.0 xdata=0 const=0 code=784
+Program Size: data=9.0 xdata=0 const=0 code=19
 LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

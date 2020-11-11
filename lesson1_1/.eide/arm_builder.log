@@ -223,3 +223,33 @@
 [2020-11-06 18:51:12]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\蜂鸣器.c", exit code: 2
    在 ARM_Builder_V6.Program.Main(String[] args)
 
+[2020-11-07 18:12:26]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:12:31]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:13:41]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:13:56]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:14:00]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:14:05]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:14:10]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:14:16]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:14:45]	link failed !, exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-07 18:23:44]	link failed !, exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+

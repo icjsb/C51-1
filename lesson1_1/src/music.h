@@ -14,7 +14,8 @@ void music(int hz,float yinfu)
     int ci=60.0*hz/basicspeed*yinfu;
     int x;
    while(ci--)//用函数来延时误差太大
-   {beep=~beep;
+   {
+   beep=~beep;
     x=diao;
     while(x--);
     }
