@@ -1,32 +1,48 @@
-LX51 LINKER/LOCATER V4.41                                                               11/10/2020  21:11:47  PAGE 1
+LX51 LINKER/LOCATER V4.41                                                               11/15/2020  16:34:48  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.41, INVOKED BY:
-D:\CHIPENVIRONMENT\KEIL\C51\BIN\LX51.EXE .\OUT\RELEASE\·äÃùÆ÷.O TO .\OUT\RELEASE\LESSON1_1 PRINT (.\out\Release\lesson1_
->> 1.map) REMOVEUNUSED
+D:\CHIPENVIRONMENT\KEIL\C51\BIN\LX51.EXE .\OUT\RELEASE\°´¼ü¿ØÖÆÁ÷Ë®µÆÍâ²¿¶¨Ê±Æ÷ÖÐ¶Ï.O TO .\OUT\RELEASE\LESSON1_1 PRINT (
+>> .\out\Release\lesson1_1.map) REMOVEUNUSED
 
 
 CPU MODE:     8051 MODE
-MEMORY MODEL: SMALL
+MEMORY MODEL: SMALL WITH FLOATING POINT ARITHMETIC
 
 
 INPUT MODULES INCLUDED:
-  .\OUT\RELEASE\·äÃùÆ÷.O (·_Ã_Æ÷)
+  .\OUT\RELEASE\°´¼ü¿ØÖÆÁ÷Ë®µÆÍâ²¿¶¨Ê±Æ÷ÖÐ¶Ï.O (_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï)
          COMMENT TYPE 0: C51 V9.00
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?CASTF)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPGETOPN)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
   D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C?SLDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C?LNEG)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C?SLCMP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C?ULDIV)
          COMMENT TYPE 1: A51 / ASM51 Assembler
 
 
-ACTIVE MEMORY CLASSES OF MODULE:  .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
+ACTIVE MEMORY CLASSES OF MODULE:  .\OUT\RELEASE\LESSON1_1 (_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï)
 
 BASE        START       END         USED      MEMORY CLASS
 ==========================================================
-C:000000H   C:000000H   C:00FFFFH   000013H   CODE
+C:000000H   C:000000H   C:00FFFFH   0004F8H   CODE
+I:000000H   I:000000H   I:00007FH   00001EH   DATA
 I:000000H   I:000000H   I:0000FFH   000001H   IDATA
-I:000000H   I:000000H   I:00007FH   000008H   DATA
 
 
-MEMORY MAP OF MODULE:  .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
+MEMORY MAP OF MODULE:  .\OUT\RELEASE\LESSON1_1 (_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï)
 
 
 START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
@@ -34,70 +50,161 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 
 * * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
 000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
-000008H   000008H   000001H   BYTE   UNIT     IDATA          ?STACK
+000008H   00001DH   000016H   BYTE   UNIT     DATA           ?DT?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï
+00001EH   00001EH   000001H   BYTE   UNIT     IDATA          ?STACK
 
 * * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
 000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
-000003H   0007FFH   0007FDH   ---    ---      **GAP**
-000800H   00080BH   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
-00080CH   00080EH   000003H   BYTE   UNIT     CODE           ?PR?MAIN?·_Ã_Æ÷
-00080FH   00080FH   000001H   BYTE   UNIT     CODE           ?PR?A?·_Ã_Æ÷
+000003H   000005H   000003H   BYTE   OFFS..   CODE           ?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï?00003
+000006H   00000AH   000005H   ---    ---      **GAP**
+00000BH   00000DH   000003H   BYTE   OFFS..   CODE           ?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï?0000B
+00000EH   0007FFH   0007F2H   ---    ---      **GAP**
+000800H   000A12H   000213H   BYTE   UNIT     CODE           ?C?LIB_CODE
+000A13H   000B26H   000114H   BYTE   UNIT     CODE           ?PR?TIMER0INTERRUPT?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï
+000B27H   000BC2H   00009CH   BYTE   UNIT     CODE           ?PR?SETUP?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï
+000BC3H   000C4EH   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+000C4FH   000C92H   000044H   BYTE   UNIT     CODE           ?C?LDIV
+000C93H   000CC5H   000033H   BYTE   UNIT     CODE           ?PR?MAIN?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï
+000CC6H   000CDAH   000015H   BYTE   UNIT     CODE           ?C_INITSEG
+000CDBH   000CEEH   000014H   BYTE   UNIT     CODE           ?PR?OUTSIDEINTERRUPT?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï
+LX51 LINKER/LOCATER V4.41                                                             11/15/2020  16:34:48  PAGE 2
 
 
 
-OVERLAY MAP OF MODULE:   .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
 
 
-FUNCTION/MODULE              BIT_GROUP   DATA_GROUP 
---> CALLED FUNCTION/MODULE  START  STOP  START  STOP
-====================================================
-?C_C51STARTUP               ----- -----  ----- -----
-  +--> ?PR?MAIN?·_Ã_Æ÷
-
-MAIN/·_Ã_Æ÷                 ----- -----  ----- -----
-  +--> ?PR?A?·_Ã_Æ÷
-
-A/·_Ã_Æ÷                    ----- -----  ----- -----
+OVERLAY MAP OF MODULE:   .\OUT\RELEASE\LESSON1_1 (_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï)
 
 
+FUNCTION/MODULE                                BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE                    START  STOP  START  STOP
+======================================================================
+OUTSIDEINTERRUPT?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨...      ----- -----  ----- -----
 
-PUBLIC SYMBOLS OF MODULE:  .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
+*** NEW ROOT ********************************
+
+TIMER0INTERRUPT?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê...      ----- -----  ----- -----
+
+*** NEW ROOT ********************************
+
+?C_C51STARTUP                                 ----- -----  ----- -----
+  +--> ?PR?MAIN?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï
+  +--> ?C_INITSEG
+
+MAIN?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï             ----- -----  ----- -----
+  +--> ?PR?SETUP?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï
+
+SETUP?_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï            ----- -----  ----- -----
+
+?C_INITSEG                                    ----- -----  ----- -----
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\OUT\RELEASE\LESSON1_1 (_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï)
 
 
       VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
       =================================================
+      010008A0H   CODE     ---       ?C?CASTF
       00000000H   NUMBER   ---       ?C?CODESEG
-LX51 LINKER/LOCATER V4.41                                                             11/10/2020  21:11:47  PAGE 2
-
-
+      01000803H   CODE     ---       ?C?FPDIV
+      010008D7H   CODE     ---       ?C?FPGETOPN2
+      0100090CH   CODE     ---       ?C?FPNANRESULT
+      01000916H   CODE     ---       ?C?FPOVERFLOW
+      010008EEH   CODE     ---       ?C?FPRESULT
+      01000902H   CODE     ---       ?C?FPRESULT2
+      01000913H   CODE     ---       ?C?FPUNDERFLOW
+      01000921H   CODE     ---       ?C?LNEG
+      0100092FH   CODE     ---       ?C?SLCMP
+      01000C4FH   CODE     ---       ?C?SLDIV
+      01000981H   CODE     ---       ?C?ULDIV
       00000000H   NUMBER   ---       ?C?XDATASEG
-      0100080CH   CODE     ---       ?C_START
+      01000C0AH   CODE     ---       ?C_START
       01000000H   CODE     ---       ?C_STARTUP
-      0100080FH   CODE     ---       a
-      0100080CH   CODE     ---       main
+      00000018H   DATA     ---       b
+      0000001CH   DATA     WORD      c
+      00000010H   DATA     LONG      ci
+      00000008H   DATA     WORD      current
+      00000014H   DATA     FLOAT     jq
+      0000000EH   DATA     WORD      led
+      01000C93H   CODE     ---       main
+      01000CDBH   CODE     ---       OutsideInterrupt
+      01000B27H   CODE     ---       setup
+      0000000AH   DATA     FLOAT     time
+      01000A13H   CODE     ---       Timer0Interrupt
 
 
 
-SYMBOL TABLE OF MODULE:  .\OUT\RELEASE\LESSON1_1 (·_Ã_Æ÷)
+LX51 LINKER/LOCATER V4.41                                                             11/15/2020  16:34:48  PAGE 3
+
+
+SYMBOL TABLE OF MODULE:  .\OUT\RELEASE\LESSON1_1 (_´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï)
 
       VALUE       REP       CLASS    TYPE      SYMBOL NAME
       ====================================================
-      ---         MODULE    ---      ---       ·_Ã_Æ÷
-      0100080CH   PUBLIC    CODE     ---       main
-      0100080FH   PUBLIC    CODE     ---       a
+      ---         MODULE    ---      ---       _´¼ü¿Ø_ÆÁ÷Ë®µÆÍ_²¿¶¨Ê±Æ÷_Ð¶Ï
+      0000001CH   PUBLIC    DATA     WORD      c
+      00000018H   PUBLIC    DATA     ---       b
+      00000014H   PUBLIC    DATA     FLOAT     jq
+      00000010H   PUBLIC    DATA     LONG      ci
+      0000000EH   PUBLIC    DATA     WORD      led
+      0000000AH   PUBLIC    DATA     FLOAT     time
+      00000008H   PUBLIC    DATA     WORD      current
+      01000A13H   PUBLIC    CODE     ---       Timer0Interrupt
+      01000CDBH   PUBLIC    CODE     ---       OutsideInterrupt
+      01000C93H   PUBLIC    CODE     ---       main
+      01000B27H   PUBLIC    CODE     ---       setup
 
-      0100080FH   BLOCK     CODE     ---       LVL=0
+      01000B27H   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      0100080CH   BLOCK     CODE     ---       LVL=0
+      01000C93H   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
+
+      01000CDBH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000A13H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       ?C?FPDIV
+      01000803H   PUBLIC    CODE     ---       ?C?FPDIV
+
+      ---         MODULE    ---      ---       ?C?CASTF
+      010008A0H   PUBLIC    CODE     ---       ?C?CASTF
+
+      ---         MODULE    ---      ---       ?C?FPGETOPN
+      010008D7H   PUBLIC    CODE     ---       ?C?FPGETOPN2
+      0100090CH   PUBLIC    CODE     ---       ?C?FPNANRESULT
+      01000916H   PUBLIC    CODE     ---       ?C?FPOVERFLOW
+      010008EEH   PUBLIC    CODE     ---       ?C?FPRESULT
+      01000902H   PUBLIC    CODE     ---       ?C?FPRESULT2
+      01000913H   PUBLIC    CODE     ---       ?C?FPUNDERFLOW
 
       ---         MODULE    ---      ---       ?C_STARTUP
       01000000H   PUBLIC    CODE     ---       ?C_STARTUP
 
+      ---         MODULE    ---      ---       ?C?SLDIV
+      01000C4FH   PUBLIC    CODE     ---       ?C?SLDIV
+
+      ---         MODULE    ---      ---       ?C?LNEG
+      01000921H   PUBLIC    CODE     ---       ?C?LNEG
+
+      ---         MODULE    ---      ---       ?C?SLCMP
+      0100092FH   PUBLIC    CODE     ---       ?C?SLCMP
+
+      ---         MODULE    ---      ---       ?C_INIT
+      01000C0AH   PUBLIC    CODE     ---       ?C_START
+
+      ---         MODULE    ---      ---       ?C?ULDIV
+      01000981H   PUBLIC    CODE     ---       ?C?ULDIV
+
 ******************************************************************************
-* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0004H BYTE ( 0%) *
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0211H BYTE (25%) *
 ******************************************************************************
 
-Program Size: data=9.0 xdata=0 const=0 code=19
+LX51 LINKER/LOCATER V4.41                                                             11/15/2020  16:34:48  PAGE 4
+
+
+Program Size: data=31.0 xdata=0 const=0 code=1272
 LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

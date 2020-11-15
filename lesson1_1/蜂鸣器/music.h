@@ -8,6 +8,7 @@ int cal(int hz)
 {
     return 1.0/(hz*jq*10);
 }
+
 void music(int hz,float yinfu)
 {
     int diao=cal(hz);

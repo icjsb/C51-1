@@ -253,3 +253,54 @@
 [2020-11-07 18:23:44]	link failed !, exit code: 3
    在 ARM_Builder_V6.Program.Main(String[] args)
 
+[2020-11-15 15:08:50]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:37:56]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:38:57]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:39:10]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:45:25]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:47:13]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:47:43]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:48:25]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:52:04]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:53:23]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:55:38]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:58:22]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:58:58]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 15:59:30]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(外部+定时器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 16:00:36]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(计数器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 16:01:37]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯(外部定时器中断).c", exit code: 3
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-15 16:34:41]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯外部定时器中断.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
