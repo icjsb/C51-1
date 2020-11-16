@@ -10,11 +10,11 @@ unsigned char b[4]={0xfe,0xfd,0xfb,0xf7};
 
 void setup()
 {
-    if(ci>=65535){current=65535;ci-=65535;}
+    if(ci>=8191){current=8191;ci-=8191;}
     else {current=ci;ci=0;}
-    TMOD = 0x01;
-    TH0 = (65535-current)/256;
-    TL0 = (65535-current)%256;
+    TMOD = 0x00;
+    TH0 = (8191-current)/32;
+    TL0 = (8191-current)%32;
     EA = 1;
     ET0 = 1;
     EX0 = 1;
@@ -45,12 +45,12 @@ void Timer0Interrupt(void) interrupt 1
     led=(led+c+4)%4; 
     ci=time/jq;
     }
-    if(ci>=65535){current=65535;ci-=65535;}
+    if(ci>=8191){current=8191;ci-=8191;}
     else 
     {
         current=ci;
         ci=0;
     }
-    TH0 = (65535-current)/256;
-    TL0 = (65535-current)%256;         
+    TH0 = (8191-current)/32;
+    TL0 = (8191-current)%32;         
 }

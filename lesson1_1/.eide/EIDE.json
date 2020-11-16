@@ -1,7 +1,7 @@
 {
     "name": "lesson1_1",
     "type": "C51",
-    "mode": "Release",
+    "mode": "Debug",
     "toolchain": "Keil_C51",
     "uploader": "stcgal",
     "dependenceList": [
@@ -25,7 +25,9 @@
                     "incList": [],
                     "libList": [],
                     "sourceDirList": [],
-                    "defineList": []
+                    "defineList": [
+                        "DEBUG"
+                    ]
                 },
                 {
                     "name": "toolchain",
@@ -52,11 +54,11 @@
     "excludeList": [],
     "outDir": ".\\out",
     "uploadConfig": {
-        "bin": ".\\out\\Release\\lesson1_1.hex",
+        "bin": ".\\out\\Debug\\lesson1_1.hex",
         "eepromImgPath": "null",
         "options": ".eide/stc.flash.json"
     },
     "miscInfo": {
-        "lastBuildTime": 1605429280791
+        "lastBuildTime": 1605528828679
     }
 }

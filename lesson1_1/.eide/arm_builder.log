@@ -304,3 +304,18 @@
 [2020-11-15 16:34:41]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\按键控制流水灯外部定时器中断.c", exit code: 2
    在 ARM_Builder_V6.Program.Main(String[] args)
 
+[2020-11-15 21:04:12]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\呼吸灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-16 16:21:54]	Not found any source files !, please add some source files !
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-16 16:22:02]	Not found any source files !, please add some source files !
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-16 16:23:03]	Not found any source files !, please add some source files !
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-11-16 20:01:55]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\呼吸灯.c", exit code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+

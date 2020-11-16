@@ -7,6 +7,7 @@
                 ".\\src"
             ],
             "defines": [
+                "DEBUG",
                 "__UVISION_VERSION=526",
                 "__C51__",
                 "__VSCODE_C51__",
