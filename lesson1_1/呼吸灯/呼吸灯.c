@@ -3,8 +3,8 @@
 void main(void)
 {
    //帧率(fps)，速度(s/个),fps>=16
-   fps=50;
-   speed=10;
+   fps=100;
+   speed=2;
    setup();
    while(1);
 }
