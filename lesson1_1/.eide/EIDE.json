@@ -54,11 +54,11 @@
     "excludeList": [],
     "outDir": ".\\out",
     "uploadConfig": {
-        "bin": ".\\out\\Release\\lesson1_1.hex",
+        "bin": ".\\out\\Debug\\lesson1_1.hex",
         "eepromImgPath": "null",
         "options": ".eide/stc.flash.json"
     },
     "miscInfo": {
-        "lastBuildTime": 1609475093679
+        "lastBuildTime": 1609829713991
     }
 }

@@ -1,0 +1,4 @@
+".\Objects\LCD12864.obj",
+".\Objects\main.obj" 
+TO ".\Objects\LCD12864" 
+PRINT(".\Listings\LCD12864.m51")

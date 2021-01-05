@@ -1,0 +1,30 @@
+[2021-01-04 10:43:40]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-04 10:44:02]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-04 10:44:15]	link failed !, exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 14:50:12]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864(绘图).c", exit code: 3
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 14:51:07]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864(绘图).c", exit code: 3
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 14:51:32]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864(绘图).c", exit code: 3
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 14:52:45]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864(绘图).c", exit code: 3
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 14:53:30]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864(绘图).c", exit code: 3
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 14:53:50]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 14:55:14]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864(字库).c", exit code: 3
+   在 unify_builder.Program.Main(String[] args)
+
