@@ -8310,3 +8310,1168 @@ armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
     at processTicksAndRejections (internal/process/task_queues.js:94:5)
     at async Promise.all (index 5)
     at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/5|20:38:21|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/6|09:08:41|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/6|09:53:55|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/6|09:54:41|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/6|10:01:17|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/6|15:09:58|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|10:07:22|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|10:35:21|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|10:45:49|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|10:47:31|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|10:54:49|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|11:08:57|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|11:16:19|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|12:24:56|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|12:27:40|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|15:37:56|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+[E29DFE4F-D93A-11EA-80DE-5405DB0A65BD] : log at : 2021/1/7|15:59:22|GMT+0800
+[Hidden] : Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+Error: Command failed: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin\armclang.exe --target=arm-arm-none-eabi -E -dM - <nul
+armclang: error: ARMv4 is not supported by this toolchain
+armclang: note: Check that your license details are correct in the License Management dialog of MDK. Additional information is available at:
+ http://www.keil.com/support/man/docs/license/license_management.htm
+ If you need further help, provide this complete error report to your supplier or license.support@arm.com.
+ - ARMLMD_LICENSE_FILE: unset
+ - LM_LICENSE_FILE: unset
+ - ARM_PRODUCT_DEF: unset
+ - ARM_PRODUCT_PATH: unset
+ - ARM_TOOL_VARIANT: unset
+ - Product location: D:\Chipenvironment\KeilMDK\ARM\sw\mappings
+ - Toolchain location: D:\Chipenvironment\KeilMDK\ARM\ARMCLANG\bin
+ - Selected tool variant: mdk_lite
+Product: MDK-ARM Lite 5.32
+Component: ARM Compiler 6.14.1
+Tool: armclang [5db08000]
+
+armclang: error: ARM Compiler does not support '--target=arm-arm-none-eabi'
+
+    at checkExecSyncError (child_process.js:630:11)
+    at Object.execSync (child_process.js:666:15)
+    at Object.execSync (electron/js2c/asar.js:727:23)
+    at b.getMacroList (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67951)
+    at new b (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:67793)
+    at new f (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58309)
+    at Function.getInstance (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:58458)
+    at M.loadToolchain (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:95921)
+    at M.Load (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:91502)
+    at P._OpenProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:335209)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:327963)
+    at Object.onceWrapper (events.js:313:26)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at EventEmitter.<anonymous> (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:165027)
+    at EventEmitter.emit (events.js:223:5)
+    at Function.emit (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:4455)
+    at P.LoadWorkspaceProject (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:328012)
+    at new P (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:326613)
+    at new t.ProjectExplorer (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:339657)
+    at t.activate (c:\Users\16285\.vscode\extensions\cl.eide-1.20.3\dist\extension.js:1:168731)
+    at Function._callActivateOptional (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:773)
+    at Function._callActivate (d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:960:424)
+    at d:\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:958:841
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Promise.all (index 5)
+    at async Promise.all (index 0)
+
+

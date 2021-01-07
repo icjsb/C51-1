@@ -28,3 +28,45 @@
 [2021-01-05 14:55:14]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864(字库).c", exit code: 3
    在 unify_builder.Program.Main(String[] args)
 
+[2021-01-05 18:24:25]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864绘图.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 18:24:50]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864绘图.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 18:25:40]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864绘图.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 18:26:02]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864绘图.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-05 18:27:34]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\12864绘图.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-06 09:08:51]	link failed !, exit code: 3
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-06 09:09:07]	link failed !, exit code: 3
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-07 11:21:42]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\串口通信.cpp", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-07 11:22:04]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\串口通信.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-07 14:26:18]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\串口通信.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-07 14:26:21]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\串口通信.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-07 14:26:30]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\串口通信.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-07 15:27:19]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\main.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
+[2021-01-07 15:28:37]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\main.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+

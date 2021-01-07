@@ -3,11 +3,11 @@
 #define uchar unsigned char
 #define uint unsigned int
 
-sbit LCD_RS=P3^5;
-sbit LCD_RW=P3^6;
-sbit LCD_EN=P3^4;
-sbit LCD_PSB=P3^7;
-uchar code str1[]="2021";
+sbit LCD_RS=P2^0;
+sbit LCD_RW=P2^1;
+sbit LCD_EN=P2^2;
+sbit LCD_PSB=P2^3;
+uchar code str1[]="年轻人不讲武德啊";
 
 void write_cmd(uchar);//写指令,RS=L,RW=L
 void write_date(uchar);//写数据,RS=H,RW=L
@@ -26,6 +26,7 @@ void main()
        write_date(str1[i]);
        i++;
    }
+   getchar();
 }
 void check_busy()
 {
