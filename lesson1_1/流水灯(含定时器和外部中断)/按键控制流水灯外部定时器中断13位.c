@@ -34,7 +34,7 @@ void main()
 void OutsideInterrupt(void) interrupt 0
 {
    c=-c;
-   led=(led+2*c+4)%4; //¼°Ê±×ª»»×´Ì¬
+   led=(led+2*c+4)%4; //????????
 }
 
 void Timer0Interrupt(void) interrupt 1

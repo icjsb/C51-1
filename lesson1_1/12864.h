@@ -8,21 +8,21 @@ sbit LCD_EN=P2^2;
 sbit LCD_PSB=P2^3;
 
 uchar readstatus();
-void lcd_init();//³õÊ¼»¯º¯Êı
-void write(uchar,uchar);//Ğ´Êı¾İ¡¢Ö¸Áî,'z'±íÊ¾Ö¸Áî,'s'±íÊ¾Êı¾İ
-void check_busy();//ÅĞÃ¦º¯Êı
-void clear_screen();//ÇåÆÁ
-void clear_GDRAM();//Çå³ı»º³åÇø
-void delay_1ms(uint);//ÑÓÊ±
-void display_image(uint,uint,uchar*,uint,uint);//ÔÚÖ¸¶¨Î»ÖÃÏÔÊ¾µ¥ÕÅÍ¼Æ¬
-//void fill_point(uint,uint);//»­µã
-//void fill_line(uint,uint,uint,uint);//»­Ïß
-//void fill_circle(uint,uint,uint);//»­Ô²
+void lcd_init();//åˆå§‹åŒ–å‡½æ•°
+void write(uchar,uchar);//å†™æ•°æ®ã€æŒ‡ä»¤,'z'è¡¨ç¤ºæŒ‡ä»¤,'s'è¡¨ç¤ºæ•°æ®
+void check_busy();//åˆ¤å¿™å‡½æ•°
+void clear_screen();//æ¸…å±
+void clear_GDRAM();//æ¸…é™¤ç¼“å†²åŒº
+void delay_1ms(uint);//å»¶æ—¶
+void display_image(uint,uint,uchar*,uint,uint);//åœ¨æŒ‡å®šä½ç½®æ˜¾ç¤ºå•å¼ å›¾ç‰‡
+//void fill_point(uint,uint);//ç”»ç‚¹
+//void fill_line(uint,uint,uint,uint);//ç”»çº¿
+//void fill_circle(uint,uint,uint);//ç”»åœ†
 
 uchar readstatus()
 {
     uchar temp;
-    P0=0xff;//²»´óÇå³ş
+    P0=0xff;//ä¸å¤§æ¸…æ¥š
     LCD_RS=1;
     LCD_RW=1;
     LCD_EN=1;
@@ -42,20 +42,20 @@ void delay_1ms(uint x)
 void lcd_init()
 {
     LCD_PSB=1;
-    write(0x30,'z');//¹¦ÄÜÉè¶¨,ÉèÖÃ»ù±¾Ö¸Áî²Ù×÷,0x34À©³äÖ¸Áî
-    write(0x0C,'z');//ÕûÌåÏÔÊ¾¿ª,ÓÎ±ê¹Ø,ÓÎ±êÎ»ÖÃ·´°×¹Ø
-    clear_screen();//ÇåÆÁ
-    clear_GDRAM();//Çå³ı»º³åÇø
+    write(0x30,'z');//åŠŸèƒ½è®¾å®š,è®¾ç½®åŸºæœ¬æŒ‡ä»¤æ“ä½œ,0x34æ‰©å……æŒ‡ä»¤
+    write(0x0C,'z');//æ•´ä½“æ˜¾ç¤ºå¼€,æ¸¸æ ‡å…³,æ¸¸æ ‡ä½ç½®åç™½å…³
+    clear_screen();//æ¸…å±
+    clear_GDRAM();//æ¸…é™¤ç¼“å†²åŒº
 }
 
 void check_busy()
 {
    P0=0x00;
    LCD_RW=1;
-   LCD_RS=0;//¶Á×´Ì¬0,¶ÁÊı¾İ1
+   LCD_RS=0;//è¯»çŠ¶æ€0,è¯»æ•°æ®1
    LCD_EN=1;
    delay_1ms(5);
-   while(P0 & 0x80);//ÅĞÃ¦Ñ­»·
+   while(P0 & 0x80);//åˆ¤å¿™å¾ªç¯
    LCD_EN=0;
 }
 
@@ -80,9 +80,9 @@ void clear_screen()
 void clear_GDRAM()
 {
     uchar i,j;
-    write(0x34,'z');//À©³äÖ¸Áî¼¯²Ù×÷
-    write(0x34,'z');//¹Ø»æÍ¼ÏÔÊ¾¹¦ÄÜ
-    /*ÉÏ°ëÆÁÏÔÊ¾ÉèÖÃ*/
+    write(0x34,'z');//æ‰©å……æŒ‡ä»¤é›†æ“ä½œ
+    write(0x34,'z');//å…³ç»˜å›¾æ˜¾ç¤ºåŠŸèƒ½
+    /*ä¸ŠåŠå±æ˜¾ç¤ºè®¾ç½®*/
     for(i=0;i<32;i++)
     {
         write(0x80+i,'z');
@@ -92,7 +92,7 @@ void clear_GDRAM()
             write(0x00,'s');
         }
     }
-    /*ÏÂ°ëÆÁÏÔÊ¾ÉèÖÃ*/
+    /*ä¸‹åŠå±æ˜¾ç¤ºè®¾ç½®*/
     for(i=0;i<32;i++)
     {
         write(0x80+i,'z');
@@ -102,8 +102,8 @@ void clear_GDRAM()
             write(0x00,'s');
         }
     }
-    write(0x36,'z');//¿ª»æÍ¼Ä£Ê½
-    write(0x30,'z');//»Øµ½»ù±¾Ö¸Áî
+    write(0x36,'z');//å¼€ç»˜å›¾æ¨¡å¼
+    write(0x30,'z');//å›åˆ°åŸºæœ¬æŒ‡ä»¤
 }
 
 void display_image(uint x,uint y,uchar* p,uint r,uint c)
@@ -113,8 +113,8 @@ void display_image(uint x,uint y,uchar* p,uint r,uint c)
     uint row,col;
     row=r;
     col=c;
-    write(0x34,'z');//À©³äÖ¸Áî¼¯²Ù×÷
-    write(0x34,'z');//¹Ø»æÍ¼ÏÔÊ¾¹¦ÄÜ
+    write(0x34,'z');//æ‰©å……æŒ‡ä»¤é›†æ“ä½œ
+    write(0x34,'z');//å…³ç»˜å›¾æ˜¾ç¤ºåŠŸèƒ½
     if((x-1)%16==0)
     {
        row=y+r-1<=64?r:64-y+1;
@@ -188,6 +188,6 @@ void display_image(uint x,uint y,uchar* p,uint r,uint c)
 
     }
     
-    write(0x36,'z');//¿ª»æÍ¼Ä£Ê½
-    write(0x30,'z');//»Øµ½»ù±¾Ö¸Áî
+    write(0x36,'z');//å¼€ç»˜å›¾æ¨¡å¼
+    write(0x30,'z');//å›åˆ°åŸºæœ¬æŒ‡ä»¤
 }

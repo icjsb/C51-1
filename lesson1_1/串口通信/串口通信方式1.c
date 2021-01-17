@@ -4,12 +4,13 @@ unsigned char table[]="I get a ";
 void init()
 {        
     TMOD=0x20;
-    TH1=0xfd;
+    TH1=0xfd;//9600bps
     TL1=0xfd;
+    PCON=0x00;//SMOD=0
     TR1=1;
-    REN=1;
     SM0=0;
     SM1=1;
+    REN=1;
     EA=1;
     ES=1; 
 }
@@ -44,7 +45,7 @@ void ser() interrupt 4
     flag=1;
 }
 /*
-2����ע�⣺
-   1.��Ȼ˵������������sbuf��ַ��ͬ,ֻ���ڸ�ֵ�ϲ�ͬ,����RI�������Ǹ��ǽ������ݵ�sbuf,ֻҪsbuf��������RI�ͻ���1��
-   2.ascii�ķ�Χ��0~127,������Ч����λ��7λ,���Դ���������ʱ��Ҫ���ó�7λ���ݰ����������λ����1����D0=RI=1,��Ҳ�ᵼ�����롣
+2个点注意：
+   1.虽然说在物理上两个sbuf地址不同,只是在赋值上不同,但是RI不会认那个是接受数据的sbuf,只要sbuf中有数据RI就会置1。
+   2.ascii的范围是0~127,所以有效数据位是7位,调试串口软件的时候要设置成7位数据包，否则最高位会变成1，即D0=RI=1,这也会导致乱码。
 */

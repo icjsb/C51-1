@@ -1,9 +1,9 @@
-LX51 LINKER/LOCATER V4.41                                                               01/07/2021  16:08:55  PAGE 1
+LX51 LINKER/LOCATER V4.41                                                               01/17/2021  09:27:55  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.41, INVOKED BY:
-D:\CHIPENVIRONMENT\KEIL\C51\BIN\LX51.EXE .\OUT\DEBUG\串口通信方式2.O TO .\OUT\DEBUG\LESSON1_1 PRINT (.\out\Debug\lesson1
->> _1.map) REMOVEUNUSED
+D:\CHIPENVIRONMENT\KEIL\C51\BIN\LX51.EXE .\OUT\DEBUG\12864字库.O TO .\OUT\DEBUG\LESSON1_1 PRINT (.\out\Debug\lesson1_1.m
+>> ap) REMOVEUNUSED
 
 
 CPU MODE:     8051 MODE
@@ -11,24 +11,23 @@ MEMORY MODEL: SMALL
 
 
 INPUT MODULES INCLUDED:
-  .\OUT\DEBUG\串口通信方式2.O (串口通信方式2)
+  .\OUT\DEBUG\12864字库.O (12864譥縚)
          COMMENT TYPE 0: C51 V9.00
   D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
          COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C_INIT)
-         COMMENT TYPE 1: A51 / ASM51 Assembler
 
 
-ACTIVE MEMORY CLASSES OF MODULE:  .\OUT\DEBUG\LESSON1_1 (串口通信方式2)
+ACTIVE MEMORY CLASSES OF MODULE:  .\OUT\DEBUG\LESSON1_1 (12864譥縚)
 
 BASE        START       END         USED      MEMORY CLASS
 ==========================================================
-C:000000H   C:000000H   C:00FFFFH   0000D3H   CODE
-I:000000H   I:000000H   I:00007FH   00000AH   DATA
+C:000000H   C:000000H   C:00FFFFH   0000F9H   CODE
+I:000000H   I:000000H   I:00007FH   00000BH   DATA
+C:000000H   C:000000H   C:00FFFFH   000011H   CONST
 I:000000H   I:000000H   I:0000FFH   000001H   IDATA
 
 
-MEMORY MAP OF MODULE:  .\OUT\DEBUG\LESSON1_1 (串口通信方式2)
+MEMORY MAP OF MODULE:  .\OUT\DEBUG\LESSON1_1 (12864譥縚)
 
 
 START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
@@ -36,94 +35,149 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 
 * * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
 000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
-000008H   000009H   000002H   BYTE   UNIT     DATA           ?DT?串口通信方式2
-00000AH   00000AH   000001H   BYTE   UNIT     IDATA          ?STACK
+000008H   00000AH   000003H   BYTE   UNIT     DATA           _DATA_GROUP_
+00000BH   00000BH   000001H   BYTE   UNIT     IDATA          ?STACK
 
 * * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
 000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
-000003H   000022H   000020H   ---    ---      **GAP**
-000023H   000025H   000003H   BYTE   OFFS..   CODE           ?串口通信方式2?00023
-000026H   0007FFH   0007DAH   ---    ---      **GAP**
-000800H   00088BH   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
-00088CH   0008A6H   00001BH   BYTE   UNIT     CODE           ?PR?INIT?串口通信方式2
-0008A7H   0008BFH   000019H   BYTE   UNIT     CODE           ?PR?MAIN?串口通信方式2
-0008C0H   0008C8H   000009H   BYTE   UNIT     CODE           ?PR?SER?串口通信方式2
-0008C9H   0008CCH   000004H   BYTE   UNIT     CODE           ?C_INITSEG
+000003H   0007FFH   0007FDH   ---    ---      **GAP**
+000800H   000834H   000035H   BYTE   UNIT     CODE           ?PR?LCD_RECEIVEBYTE?12864譥縚
+000835H   000859H   000025H   BYTE   UNIT     CODE           ?PR?MAIN?12864譥縚
+00085AH   000876H   00001DH   BYTE   UNIT     CODE           ?PR?_LCD_POS?12864譥縚
+000877H   000892H   00001CH   BYTE   UNIT     CODE           ?PR?_LCD_SENDBYTE?12864譥縚
+000893H   0008ADH   00001BH   BYTE   UNIT     CODE           ?PR?_WRITE_DATE?12864譥縚
+0008AEH   0008C8H   00001BH   BYTE   UNIT     CODE           ?PR?_WRITE_CMD?12864譥縚
+0008C9H   0008DCH   000014H   BYTE   UNIT     CODE           ?PR?LCD_INIT?12864譥縚
+0008DDH   0008E9H   00000DH   BYTE   UNIT     CODE           ?PR?CHECK_BUSY?12864譥縚
+0008EAH   0008F5H   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+0008F6H   000906H   000011H   BYTE   UNIT     CONST          ?CO?12864譥縚
 
 
 
-OVERLAY MAP OF MODULE:   .\OUT\DEBUG\LESSON1_1 (串口通信方式2)
+OVERLAY MAP OF MODULE:   .\OUT\DEBUG\LESSON1_1 (12864譥縚)
 
 
-FUNCTION/MODULE              BIT_GROUP   DATA_GROUP 
---> CALLED FUNCTION/MODULE  START  STOP  START  STOP
-====================================================
-SER/串口通信方式2           ----- -----  ----- -----
+FUNCTION/MODULE                 BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE     START  STOP  START  STOP
+=======================================================
+?C_C51STARTUP                  ----- -----  ----- -----
+  +--> ?PR?MAIN?12864譥縚
 
-*** NEW ROOT **************
-
-?C_C51STARTUP               ----- -----  ----- -----
-  +--> ?PR?MAIN?串口通信方式2
-  +--> ?C_INITSEG
-
-MAIN/串口通信方式2          ----- -----  ----- -----
-LX51 LINKER/LOCATER V4.41                                                             01/07/2021  16:08:55  PAGE 2
+MAIN/12864譥縚                 ----- -----  0008H 0009H
+  +--> ?PR?LCD_INIT?12864譥縚
+  +--> ?PR?_LCD_POS?12864譥縚
+  +--> ?CO?12864譥縚
+LX51 LINKER/LOCATER V4.41                                                             01/17/2021  09:27:55  PAGE 2
 
 
-  +--> ?PR?INIT?串口通信方式2
+  +--> ?PR?_WRITE_DATE?12864譥縚
 
-INIT/串口通信方式2          ----- -----  ----- -----
+LCD_INIT/12864譥縚             ----- -----  ----- -----
+  +--> ?PR?_WRITE_CMD?12864譥縚
 
-?C_INITSEG                  ----- -----  ----- -----
+_WRITE_CMD/12864譥縚           ----- -----  000AH 000AH
+  +--> ?PR?CHECK_BUSY?12864譥縚
+  +--> ?PR?_LCD_SENDBYTE?12864譥縚
+
+CHECK_BUSY/12864譥縚           ----- -----  ----- -----
+  +--> ?PR?_LCD_SENDBYTE?12864譥縚
+  +--> ?PR?LCD_RECEIVEBYTE?12864譥縚
+
+_LCD_SENDBYTE/12864譥縚        ----- -----  ----- -----
+
+LCD_RECEIVEBYTE/12864譥縚      ----- -----  ----- -----
+
+_LCD_POS/12864譥縚             ----- -----  ----- -----
+  +--> ?PR?_WRITE_CMD?12864譥縚
+
+?CO?12864譥縚                  ----- -----  ----- -----
+
+_WRITE_DATE/12864譥縚          ----- -----  000AH 000AH
+  +--> ?PR?CHECK_BUSY?12864譥縚
+  +--> ?PR?_LCD_SENDBYTE?12864譥縚
 
 
 
-PUBLIC SYMBOLS OF MODULE:  .\OUT\DEBUG\LESSON1_1 (串口通信方式2)
+PUBLIC SYMBOLS OF MODULE:  .\OUT\DEBUG\LESSON1_1 (12864譥縚)
 
 
       VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
       =================================================
       00000000H   NUMBER   ---       ?C?CODESEG
       00000000H   NUMBER   ---       ?C?XDATASEG
-      01000847H   CODE     ---       ?C_START
+      01000835H   CODE     ---       ?C_START
       01000000H   CODE     ---       ?C_STARTUP
-      00000009H   DATA     BYTE      a
-      00000008H   DATA     BYTE      flag
-      0100088CH   CODE     ---       init
-      010008A7H   CODE     ---       main
-      010008C0H   CODE     ---       ser
+      0100085AH   CODE     ---       _lcd_pos
+      01000877H   CODE     ---       _lcd_sendbyte
+      010008AEH   CODE     ---       _write_cmd
+      01000893H   CODE     ---       _write_date
+      010008DDH   CODE     ---       check_busy
+      010008C9H   CODE     ---       lcd_init
+      01000800H   CODE     ---       lcd_receivebyte
+      01000835H   CODE     ---       main
+      010008F6H   CONST    ---       str1
 
 
 
-SYMBOL TABLE OF MODULE:  .\OUT\DEBUG\LESSON1_1 (串口通信方式2)
+SYMBOL TABLE OF MODULE:  .\OUT\DEBUG\LESSON1_1 (12864譥縚)
 
       VALUE       REP       CLASS    TYPE      SYMBOL NAME
       ====================================================
-      ---         MODULE    ---      ---       串口通信方式2
-      00000009H   PUBLIC    DATA     BYTE      a
-      00000008H   PUBLIC    DATA     BYTE      flag
-      010008C0H   PUBLIC    CODE     ---       ser
-      010008A7H   PUBLIC    CODE     ---       main
-      0100088CH   PUBLIC    CODE     ---       init
+      ---         MODULE    ---      ---       12864譥縚
+      010008F6H   PUBLIC    CONST    ---       str1
+      01000800H   PUBLIC    CODE     ---       lcd_receivebyte
+      01000877H   PUBLIC    CODE     ---       _lcd_sendbyte
+      010008AEH   PUBLIC    CODE     ---       _write_cmd
+      01000893H   PUBLIC    CODE     ---       _write_date
+      0100085AH   PUBLIC    CODE     ---       _lcd_pos
+      010008C9H   PUBLIC    CODE     ---       lcd_init
+      010008DDH   PUBLIC    CODE     ---       check_busy
+      01000835H   PUBLIC    CODE     ---       main
 
-      0100088CH   BLOCK     CODE     ---       LVL=0
+      01000835H   BLOCK     CODE     ---       LVL=0
+LX51 LINKER/LOCATER V4.41                                                             01/17/2021  09:27:55  PAGE 3
+
+
+      01000835H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000008H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      010008A7H   BLOCK     CODE     ---       LVL=0
+      010008DDH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      010008C0H   BLOCK     CODE     ---       LVL=0
+      010008C9H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100085AH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000893H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010008AEH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000877H   BLOCK     CODE     ---       LVL=0
+      01000877H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000800H   BLOCK     CODE     ---       LVL=0
+      01000800H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000005H   SYMBOL    DATA     VOID      i
+      00000007H   SYMBOL    DATA     VOID      tmp1
+      00000006H   SYMBOL    DATA     VOID      tmp2
+      ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
       ---         MODULE    ---      ---       ?C_STARTUP
       01000000H   PUBLIC    CODE     ---       ?C_STARTUP
 
-      ---         MODULE    ---      ---       ?C_INIT
-      01000847H   PUBLIC    CODE     ---       ?C_START
-
 ******************************************************************************
-* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0043H BYTE ( 3%) *
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00FBH BYTE (12%) *
 ******************************************************************************
 
-Program Size: data=11.0 xdata=0 const=0 code=211
+Program Size: data=12.0 xdata=0 const=17 code=249
 LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
