@@ -1,5 +1,4 @@
 #include"DHT11.h"
-
 void main()
 {
     COM_init();
@@ -11,17 +10,17 @@ void main()
         byte3=DHT11_readbyte();
         byte4=DHT11_readbyte();
         byte5=DHT11_readbyte();
-        COM_send("³õÊ¼»¯³É¹¦£¡\n");
+        COM_send("åˆå§‹åŒ–æˆåŠŸï¼\n");
         DHT11_check();
         if(flag)
         {
-            COM_send("Ğ£Ñé³É¹¦£¡\n");
-            COM_send("µ±Ç°ÎÂ¶ÈÊÇ:");
+            COM_send("æ ¡éªŒæˆåŠŸï¼\n");
+            COM_send("å½“å‰æ¸©åº¦æ˜¯:");
             COM_send(DHT11_string(byte3));
             COM_send(".");
             COM_send(DHT11_string(byte4));
-            COM_send("¡æ ");
-            COM_send("µ±Ç°Êª¶ÈÊÇ:");
+            COM_send("â„ƒ ");
+            COM_send("å½“å‰æ¹¿åº¦æ˜¯:");
             COM_send(DHT11_string(byte1));
             COM_send(".");
             COM_send(DHT11_string(byte2));
@@ -29,7 +28,7 @@ void main()
         }
         else
         {
-            COM_send("Ğ£ÑéÊ§°Ü£¡\n");
+            COM_send("æ ¡éªŒå¤±è´¥ï¼\n");
         }  
     }
     DHT11_delay1s();
