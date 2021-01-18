@@ -13,6 +13,7 @@
         "files.associations": {
             ".eideignore": "ignore"
         },
-        "files.autoGuessEncoding": true
+        "files.autoGuessEncoding": true,
+        "files.encoding": "gbk"
     }
 }

@@ -52,7 +52,7 @@ void   DHT11_init()
     flag=DHT;
     if(DHT)
     {
-         COM_send("初始化成功！\n");
+         COM_send("鍒濆鍖栧け璐ワ紒\n");
     }
     else
      {
