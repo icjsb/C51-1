@@ -1,0 +1,52 @@
+C51 COMPILER V9.00   DHT11                                                                 01/18/2021 14:52:43 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE DHT11
+OBJECT MODULE PLACED IN .\out\Debug\DHT11.o
+COMPILER INVOKED BY: D:\Chipenvironment\keil\C51\BIN\C51.exe .\SRC\DHT11.C PRINT(.\out\Debug\DHT11.lst) OMF2 TABS(4) COD
+                    -E NOCOND SYMBOLS OPTIMIZE(8,SPEED) SMALL ROM(LARGE) INCDIR(.\src) DEFINE(DEBUG,__UVISION_VERSION=526) OBJECT(.\out\Debug
+                    -\DHT11.o)
+
+line level    source
+
+   1          #include"DHT11.h"
+   2          
+   3          void main()
+   4          {
+   5   1          COM_init();
+*** WARNING C206 IN LINE 5 OF .\SRC\DHT11.C: 'COM_init': missing function-prototype
+   6   1          DHT11_init();
+   7   1          if(!flag)
+   8   1          {
+   9   2              byte1=DHT11_readbyte();
+  10   2              byte2=DHT11_readbyte();
+  11   2              byte3=DHT11_readbyte();
+  12   2              byte4=DHT11_readbyte();
+  13   2              byte5=DHT11_readbyte();
+  14   2              COM_send("初始化成功！\n");
+*** WARNING C206 IN LINE 14 OF .\SRC\DHT11.C: 'COM_send': missing function-prototype
+*** ERROR C267 IN LINE 14 OF .\SRC\DHT11.C: 'COM_send': requires ANSI-style prototype
+  15   2              DHT11_check();
+  16   2              if(flag)
+  17   2              {
+  18   3                  COM_send("校验成功！\n");
+  19   3                  COM_send("当前温度是:");
+  20   3                  COM_send(DHT11_string(byte3));
+  21   3                  COM_send(".");
+  22   3                  COM_send(DHT11_string(byte4));
+  23   3                  COM_send("℃");
+  24   3                  COM_send("当前湿度是:");
+  25   3                  COM_send(DHT11_string(byte1));
+  26   3                  COM_send(".");
+  27   3                  COM_send(DHT11_string(byte2));
+  28   3                  COM_send("%\n");
+  29   3              }
+  30   2              else
+  31   2              {
+  32   3                  COM_send("校验失败！\n");
+  33   3              }
+  34   2          }
+  35   1          DHT11_delay1s();
+  36   1      }
+
+C51 COMPILATION COMPLETE.  2 WARNING(S),  1 ERROR(S)

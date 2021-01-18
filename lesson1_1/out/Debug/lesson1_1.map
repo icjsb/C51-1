@@ -1,4 +1,4 @@
-LX51 LINKER/LOCATER V4.41                                                               01/18/2021  13:38:35  PAGE 1
+LX51 LINKER/LOCATER V4.41                                                               01/18/2021  14:52:34  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.41, INVOKED BY:
@@ -67,7 +67,7 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 000DDBH   000E03H   000029H   BYTE   UNIT     CODE           ?PR?DHT11_CHECK?DHT11
 000E04H   000E2BH   000028H   BYTE   UNIT     CODE           ?PR?DHT11_INIT?DHT11
 000E2CH   000E48H   00001DH   BYTE   UNIT     CODE           ?PR?DHT11_DELAY1S?DHT11
-LX51 LINKER/LOCATER V4.41                                                             01/18/2021  13:38:35  PAGE 2
+LX51 LINKER/LOCATER V4.41                                                             01/18/2021  14:52:34  PAGE 2
 
 
 000E49H   000E65H   00001DH   BYTE   UNIT     CODE           ?PR?DHT11_READBYTE?DHT11
@@ -135,7 +135,7 @@ PUBLIC SYMBOLS OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DHT11)
       VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
       =================================================
       01000B49H   CODE     ---       ?C?CASTF
-LX51 LINKER/LOCATER V4.41                                                             01/18/2021  13:38:35  PAGE 3
+LX51 LINKER/LOCATER V4.41                                                             01/18/2021  14:52:34  PAGE 3
 
 
       01000BCAH   CODE     ---       ?C?CLDOPTR
@@ -203,7 +203,7 @@ SYMBOL TABLE OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DHT11)
       01000E82H   PUBLIC    CODE     ---       DHT11_delay40us
       01000E66H   PUBLIC    CODE     ---       COM_init
       01000DB4H   PUBLIC    CODE     ---       _COM_send
-LX51 LINKER/LOCATER V4.41                                                             01/18/2021  13:38:35  PAGE 4
+LX51 LINKER/LOCATER V4.41                                                             01/18/2021  14:52:34  PAGE 4
 
 
 
@@ -271,7 +271,7 @@ SYMBOL TABLE OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DHT11)
 
       01000CC8H   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
-LX51 LINKER/LOCATER V4.41                                                             01/18/2021  13:38:35  PAGE 5
+LX51 LINKER/LOCATER V4.41                                                             01/18/2021  14:52:34  PAGE 5
 
 
 

@@ -673,3 +673,9 @@
 [2021-01-18 13:38:35]	[done]
 	build successfully !
 
+[2021-01-18 14:52:34]	[done]
+	build successfully !
+
+[2021-01-18 14:52:43]	compilation failed at : "c:\Users\16285\Desktop\单片机\lesson1_1\src\DHT11.c", exit code: 2
+   在 unify_builder.Program.Main(String[] args)
+
