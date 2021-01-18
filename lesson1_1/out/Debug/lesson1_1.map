@@ -1,33 +1,50 @@
-LX51 LINKER/LOCATER V4.41                                                               01/17/2021  09:27:55  PAGE 1
+LX51 LINKER/LOCATER V4.41                                                               01/18/2021  13:38:35  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.41, INVOKED BY:
-D:\CHIPENVIRONMENT\KEIL\C51\BIN\LX51.EXE .\OUT\DEBUG\12864×Ö¿â.O TO .\OUT\DEBUG\LESSON1_1 PRINT (.\out\Debug\lesson1_1.m
->> ap) REMOVEUNUSED
+D:\CHIPENVIRONMENT\KEIL\C51\BIN\LX51.EXE .\OUT\DEBUG\DHT11.O TO .\OUT\DEBUG\LESSON1_1 PRINT (.\out\Debug\lesson1_1.map) 
+>> REMOVEUNUSED
 
 
 CPU MODE:     8051 MODE
-MEMORY MODEL: SMALL
+MEMORY MODEL: SMALL WITH FLOATING POINT ARITHMETIC
 
 
 INPUT MODULES INCLUDED:
-  .\OUT\DEBUG\12864×Ö¿â.O (12864×_¿_)
+  .\OUT\DEBUG\DHT11.O (DHT11)
          COMMENT TYPE 0: C51 V9.00
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPADD)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPMUL)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPCMP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FCAST)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?CASTF)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51FPS.LIB (?C?FPGETOPN)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
   D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C?CLDOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEIL\C51\LIB\C51S.LIB (?C?LNEG)
          COMMENT TYPE 1: A51 / ASM51 Assembler
 
 
-ACTIVE MEMORY CLASSES OF MODULE:  .\OUT\DEBUG\LESSON1_1 (12864×_¿_)
+ACTIVE MEMORY CLASSES OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DHT11)
 
 BASE        START       END         USED      MEMORY CLASS
 ==========================================================
-C:000000H   C:000000H   C:00FFFFH   0000F9H   CODE
-I:000000H   I:000000H   I:00007FH   00000BH   DATA
-C:000000H   C:000000H   C:00FFFFH   000011H   CONST
+C:000000H   C:000000H   C:00FFFFH   0006A0H   CODE
+I:000000H   I:000000H   I:00007FH   000020H   DATA
 I:000000H   I:000000H   I:0000FFH   000001H   IDATA
 
 
-MEMORY MAP OF MODULE:  .\OUT\DEBUG\LESSON1_1 (12864×_¿_)
+MEMORY MAP OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DHT11)
 
 
 START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
@@ -35,149 +52,271 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 
 * * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
 000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
-000008H   00000AH   000003H   BYTE   UNIT     DATA           _DATA_GROUP_
-00000BH   00000BH   000001H   BYTE   UNIT     IDATA          ?STACK
+000008H   000017H   000010H   BYTE   UNIT     DATA           ?DT?DHT11
+000018H   00001FH   000008H   BYTE   UNIT     DATA           _DATA_GROUP_
+000020H   000020H   000001H   BYTE   UNIT     IDATA          ?STACK
 
 * * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
 000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
 000003H   0007FFH   0007FDH   ---    ---      **GAP**
-000800H   000834H   000035H   BYTE   UNIT     CODE           ?PR?LCD_RECEIVEBYTE?12864×_¿_
-000835H   000859H   000025H   BYTE   UNIT     CODE           ?PR?MAIN?12864×_¿_
-00085AH   000876H   00001DH   BYTE   UNIT     CODE           ?PR?_LCD_POS?12864×_¿_
-000877H   000892H   00001CH   BYTE   UNIT     CODE           ?PR?_LCD_SENDBYTE?12864×_¿_
-000893H   0008ADH   00001BH   BYTE   UNIT     CODE           ?PR?_WRITE_DATE?12864×_¿_
-0008AEH   0008C8H   00001BH   BYTE   UNIT     CODE           ?PR?_WRITE_CMD?12864×_¿_
-0008C9H   0008DCH   000014H   BYTE   UNIT     CODE           ?PR?LCD_INIT?12864×_¿_
-0008DDH   0008E9H   00000DH   BYTE   UNIT     CODE           ?PR?CHECK_BUSY?12864×_¿_
-0008EAH   0008F5H   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
-0008F6H   000906H   000011H   BYTE   UNIT     CONST          ?CO?12864×_¿_
+000800H   000C04H   000405H   BYTE   UNIT     CODE           ?C?LIB_CODE
+000C05H   000CC7H   0000C3H   BYTE   UNIT     CODE           ?PR?_DHT11_STRING?DHT11
+000CC8H   000D59H   000092H   BYTE   UNIT     CODE           ?PR?MAIN?DHT11
+000D5AH   000DADH   000054H   BYTE   UNIT     CODE           ?CO?DHT11
+000DAEH   000DDAH   00002DH   BYTE   UNIT     CODE           ?PR?_COM_SEND?DHT11
+000DDBH   000E03H   000029H   BYTE   UNIT     CODE           ?PR?DHT11_CHECK?DHT11
+000E04H   000E2BH   000028H   BYTE   UNIT     CODE           ?PR?DHT11_INIT?DHT11
+000E2CH   000E48H   00001DH   BYTE   UNIT     CODE           ?PR?DHT11_DELAY1S?DHT11
+LX51 LINKER/LOCATER V4.41                                                             01/18/2021  13:38:35  PAGE 2
+
+
+000E49H   000E65H   00001DH   BYTE   UNIT     CODE           ?PR?DHT11_READBYTE?DHT11
+000E66H   000E75H   000010H   BYTE   UNIT     CODE           ?PR?COM_INIT?DHT11
+000E76H   000E81H   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+000E82H   000E8AH   000009H   BYTE   UNIT     CODE           ?PR?DHT11_DELAY40US?DHT11
+000E8BH   000E93H   000009H   BYTE   UNIT     CODE           ?PR?DHT11_DELAY50US?DHT11
+000E94H   000E9CH   000009H   BYTE   UNIT     CODE           ?PR?DHT11_DELAY18MS?DHT11
 
 
 
-OVERLAY MAP OF MODULE:   .\OUT\DEBUG\LESSON1_1 (12864×_¿_)
+OVERLAY MAP OF MODULE:   .\OUT\DEBUG\LESSON1_1 (DHT11)
 
 
-FUNCTION/MODULE                 BIT_GROUP   DATA_GROUP 
---> CALLED FUNCTION/MODULE     START  STOP  START  STOP
-=======================================================
-?C_C51STARTUP                  ----- -----  ----- -----
-  +--> ?PR?MAIN?12864×_¿_
+FUNCTION/MODULE              BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE  START  STOP  START  STOP
+====================================================
+?C_C51STARTUP               ----- -----  ----- -----
+  +--> ?PR?MAIN?DHT11
 
-MAIN/12864×_¿_                 ----- -----  0008H 0009H
-  +--> ?PR?LCD_INIT?12864×_¿_
-  +--> ?PR?_LCD_POS?12864×_¿_
-  +--> ?CO?12864×_¿_
-LX51 LINKER/LOCATER V4.41                                                             01/17/2021  09:27:55  PAGE 2
+MAIN/DHT11                  ----- -----  ----- -----
+  +--> ?PR?COM_INIT?DHT11
+  +--> ?PR?DHT11_INIT?DHT11
+  +--> ?PR?DHT11_READBYTE?DHT11
+  +--> ?CO?DHT11
+  +--> ?PR?_COM_SEND?DHT11
+  +--> ?PR?DHT11_CHECK?DHT11
+  +--> ?PR?_DHT11_STRING?DHT11
+  +--> ?PR?DHT11_DELAY1S?DHT11
+
+COM_INIT/DHT11              ----- -----  ----- -----
+
+DHT11_INIT/DHT11            ----- -----  ----- -----
+  +--> ?PR?DHT11_DELAY1S?DHT11
+  +--> ?PR?DHT11_DELAY18MS?DHT11
+  +--> ?PR?DHT11_DELAY50US?DHT11
+  +--> ?CO?DHT11
+  +--> ?PR?_COM_SEND?DHT11
+
+DHT11_DELAY1S/DHT11         ----- -----  ----- -----
+
+DHT11_DELAY18MS/DHT11       ----- -----  ----- -----
+
+DHT11_DELAY50US/DHT11       ----- -----  ----- -----
+
+?CO?DHT11                   ----- -----  ----- -----
+
+_COM_SEND/DHT11             ----- -----  0018H 001AH
+  +--> ?CO?DHT11
+
+DHT11_READBYTE/DHT11        ----- -----  ----- -----
+  +--> ?PR?DHT11_DELAY40US?DHT11
+
+DHT11_DELAY40US/DHT11       ----- -----  ----- -----
+
+DHT11_CHECK/DHT11           ----- -----  ----- -----
+
+_DHT11_STRING/DHT11         ----- -----  0018H 001FH
 
 
-  +--> ?PR?_WRITE_DATE?12864×_¿_
 
-LCD_INIT/12864×_¿_             ----- -----  ----- -----
-  +--> ?PR?_WRITE_CMD?12864×_¿_
-
-_WRITE_CMD/12864×_¿_           ----- -----  000AH 000AH
-  +--> ?PR?CHECK_BUSY?12864×_¿_
-  +--> ?PR?_LCD_SENDBYTE?12864×_¿_
-
-CHECK_BUSY/12864×_¿_           ----- -----  ----- -----
-  +--> ?PR?_LCD_SENDBYTE?12864×_¿_
-  +--> ?PR?LCD_RECEIVEBYTE?12864×_¿_
-
-_LCD_SENDBYTE/12864×_¿_        ----- -----  ----- -----
-
-LCD_RECEIVEBYTE/12864×_¿_      ----- -----  ----- -----
-
-_LCD_POS/12864×_¿_             ----- -----  ----- -----
-  +--> ?PR?_WRITE_CMD?12864×_¿_
-
-?CO?12864×_¿_                  ----- -----  ----- -----
-
-_WRITE_DATE/12864×_¿_          ----- -----  000AH 000AH
-  +--> ?PR?CHECK_BUSY?12864×_¿_
-  +--> ?PR?_LCD_SENDBYTE?12864×_¿_
-
-
-
-PUBLIC SYMBOLS OF MODULE:  .\OUT\DEBUG\LESSON1_1 (12864×_¿_)
+PUBLIC SYMBOLS OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DHT11)
 
 
       VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
       =================================================
+      01000B49H   CODE     ---       ?C?CASTF
+LX51 LINKER/LOCATER V4.41                                                             01/18/2021  13:38:35  PAGE 3
+
+
+      01000BCAH   CODE     ---       ?C?CLDOPTR
       00000000H   NUMBER   ---       ?C?CODESEG
+      01000B15H   CODE     ---       ?C?FCASTC
+      01000B10H   CODE     ---       ?C?FCASTI
+      01000B0BH   CODE     ---       ?C?FCASTL
+      01000807H   CODE     ---       ?C?FPADD
+      01000AA0H   CODE     ---       ?C?FPCMP
+      01000A9EH   CODE     ---       ?C?FPCMP3
+      01000A01H   CODE     ---       ?C?FPDIV
+      01000B80H   CODE     ---       ?C?FPGETOPN2
+      010008F8H   CODE     ---       ?C?FPMUL
+      01000BB5H   CODE     ---       ?C?FPNANRESULT
+      01000BBFH   CODE     ---       ?C?FPOVERFLOW
+      01000B97H   CODE     ---       ?C?FPRESULT
+      01000BABH   CODE     ---       ?C?FPRESULT2
+      01000803H   CODE     ---       ?C?FPSUB
+      01000BBCH   CODE     ---       ?C?FPUNDERFLOW
+      01000BF7H   CODE     ---       ?C?LNEG
       00000000H   NUMBER   ---       ?C?XDATASEG
-      01000835H   CODE     ---       ?C_START
+      01000CC8H   CODE     ---       ?C_START
       01000000H   CODE     ---       ?C_STARTUP
-      0100085AH   CODE     ---       _lcd_pos
-      01000877H   CODE     ---       _lcd_sendbyte
-      010008AEH   CODE     ---       _write_cmd
-      01000893H   CODE     ---       _write_date
-      010008DDH   CODE     ---       check_busy
-      010008C9H   CODE     ---       lcd_init
-      01000800H   CODE     ---       lcd_receivebyte
-      01000835H   CODE     ---       main
-      010008F6H   CONST    ---       str1
+      01000DB4H   CODE     ---       _COM_send
+      01000C05H   CODE     ---       _DHT11_string
+      00000013H   DATA     BYTE      byte1
+      00000014H   DATA     BYTE      byte2
+      00000015H   DATA     BYTE      byte3
+      00000016H   DATA     BYTE      byte4
+      00000017H   DATA     BYTE      byte5
+      01000E66H   CODE     ---       COM_init
+      01000DDBH   CODE     ---       DHT11_check
+      01000E94H   CODE     ---       DHT11_delay18ms
+      01000E2CH   CODE     ---       DHT11_delay1s
+      01000E82H   CODE     ---       DHT11_delay40us
+      01000E8BH   CODE     ---       DHT11_delay50us
+      01000E04H   CODE     ---       DHT11_init
+      01000E49H   CODE     ---       DHT11_readbyte
+      00000012H   DATA     BYTE      flag
+      01000CC8H   CODE     ---       main
+      00000008H   DATA     ---       string
 
 
 
-SYMBOL TABLE OF MODULE:  .\OUT\DEBUG\LESSON1_1 (12864×_¿_)
+SYMBOL TABLE OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DHT11)
 
       VALUE       REP       CLASS    TYPE      SYMBOL NAME
       ====================================================
-      ---         MODULE    ---      ---       12864×_¿_
-      010008F6H   PUBLIC    CONST    ---       str1
-      01000800H   PUBLIC    CODE     ---       lcd_receivebyte
-      01000877H   PUBLIC    CODE     ---       _lcd_sendbyte
-      010008AEH   PUBLIC    CODE     ---       _write_cmd
-      01000893H   PUBLIC    CODE     ---       _write_date
-      0100085AH   PUBLIC    CODE     ---       _lcd_pos
-      010008C9H   PUBLIC    CODE     ---       lcd_init
-      010008DDH   PUBLIC    CODE     ---       check_busy
-      01000835H   PUBLIC    CODE     ---       main
+      ---         MODULE    ---      ---       DHT11
+      00000017H   PUBLIC    DATA     BYTE      byte5
+      00000016H   PUBLIC    DATA     BYTE      byte4
+      00000015H   PUBLIC    DATA     BYTE      byte3
+      00000014H   PUBLIC    DATA     BYTE      byte2
+      00000013H   PUBLIC    DATA     BYTE      byte1
+      00000012H   PUBLIC    DATA     BYTE      flag
+      00000008H   PUBLIC    DATA     ---       string
+      01000CC8H   PUBLIC    CODE     ---       main
+      01000C05H   PUBLIC    CODE     ---       _DHT11_string
+      01000E49H   PUBLIC    CODE     ---       DHT11_readbyte
+      01000DDBH   PUBLIC    CODE     ---       DHT11_check
+      01000E04H   PUBLIC    CODE     ---       DHT11_init
+      01000E2CH   PUBLIC    CODE     ---       DHT11_delay1s
+      01000E94H   PUBLIC    CODE     ---       DHT11_delay18ms
+      01000E8BH   PUBLIC    CODE     ---       DHT11_delay50us
+      01000E82H   PUBLIC    CODE     ---       DHT11_delay40us
+      01000E66H   PUBLIC    CODE     ---       COM_init
+      01000DB4H   PUBLIC    CODE     ---       _COM_send
+LX51 LINKER/LOCATER V4.41                                                             01/18/2021  13:38:35  PAGE 4
 
-      01000835H   BLOCK     CODE     ---       LVL=0
-LX51 LINKER/LOCATER V4.41                                                             01/17/2021  09:27:55  PAGE 3
 
 
-      01000835H   BLOCK     CODE     NEAR LAB  LVL=1
-      00000008H   SYMBOL    DATA     VOID      i
-      ---         BLOCKEND  ---      ---       LVL=1
+      01000DAEH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      010008DDH   BLOCK     CODE     ---       LVL=0
-      ---         BLOCKEND  ---      ---       LVL=0
-
-      010008C9H   BLOCK     CODE     ---       LVL=0
-      ---         BLOCKEND  ---      ---       LVL=0
-
-      0100085AH   BLOCK     CODE     ---       LVL=0
-      ---         BLOCKEND  ---      ---       LVL=0
-
-      01000893H   BLOCK     CODE     ---       LVL=0
-      ---         BLOCKEND  ---      ---       LVL=0
-
-      010008AEH   BLOCK     CODE     ---       LVL=0
-      ---         BLOCKEND  ---      ---       LVL=0
-
-      01000877H   BLOCK     CODE     ---       LVL=0
-      01000877H   BLOCK     CODE     NEAR LAB  LVL=1
+      01000DB4H   BLOCK     CODE     ---       LVL=0
+      01000DBAH   BLOCK     CODE     NEAR LAB  LVL=1
       00000006H   SYMBOL    DATA     VOID      i
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000800H   BLOCK     CODE     ---       LVL=0
-      01000800H   BLOCK     CODE     NEAR LAB  LVL=1
-      00000005H   SYMBOL    DATA     VOID      i
-      00000007H   SYMBOL    DATA     VOID      tmp1
-      00000006H   SYMBOL    DATA     VOID      tmp2
+      01000E66H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000E82H   BLOCK     CODE     ---       LVL=0
+      01000E82H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      a
+      00000007H   SYMBOL    DATA     VOID      b
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
+
+      01000E8BH   BLOCK     CODE     ---       LVL=0
+      01000E8BH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      a
+      00000007H   SYMBOL    DATA     VOID      b
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000E94H   BLOCK     CODE     ---       LVL=0
+      01000E94H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      a
+      00000007H   SYMBOL    DATA     VOID      b
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000E2CH   BLOCK     CODE     ---       LVL=0
+      01000E2CH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      i
+      00000004H   SYMBOL    DATA     VOID      j
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000E04H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000DDBH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000E49H   BLOCK     CODE     ---       LVL=0
+      01000E49H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000004H   SYMBOL    DATA     VOID      i
+      00000005H   SYMBOL    DATA     VOID      result
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000C05H   BLOCK     CODE     ---       LVL=0
+      01000C07H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000019H   SYMBOL    DATA     VOID      xs
+      0000001AH   SYMBOL    DATA     VOID      XS
+      0000001EH   SYMBOL    DATA     VOID      i
+      0000001FH   SYMBOL    DATA     VOID      j
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000CC8H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+LX51 LINKER/LOCATER V4.41                                                             01/18/2021  13:38:35  PAGE 5
+
+
+
+      ---         MODULE    ---      ---       ?C?FPADD
+      01000807H   PUBLIC    CODE     ---       ?C?FPADD
+      01000803H   PUBLIC    CODE     ---       ?C?FPSUB
+
+      ---         MODULE    ---      ---       ?C?FPMUL
+      010008F8H   PUBLIC    CODE     ---       ?C?FPMUL
+
+      ---         MODULE    ---      ---       ?C?FPDIV
+      01000A01H   PUBLIC    CODE     ---       ?C?FPDIV
+
+      ---         MODULE    ---      ---       ?C?FPCMP
+      01000AA0H   PUBLIC    CODE     ---       ?C?FPCMP
+      01000A9EH   PUBLIC    CODE     ---       ?C?FPCMP3
+
+      ---         MODULE    ---      ---       ?C?FCAST
+      01000B15H   PUBLIC    CODE     ---       ?C?FCASTC
+      01000B10H   PUBLIC    CODE     ---       ?C?FCASTI
+      01000B0BH   PUBLIC    CODE     ---       ?C?FCASTL
+
+      ---         MODULE    ---      ---       ?C?CASTF
+      01000B49H   PUBLIC    CODE     ---       ?C?CASTF
+
+      ---         MODULE    ---      ---       ?C?FPGETOPN
+      01000B80H   PUBLIC    CODE     ---       ?C?FPGETOPN2
+      01000BB5H   PUBLIC    CODE     ---       ?C?FPNANRESULT
+      01000BBFH   PUBLIC    CODE     ---       ?C?FPOVERFLOW
+      01000B97H   PUBLIC    CODE     ---       ?C?FPRESULT
+      01000BABH   PUBLIC    CODE     ---       ?C?FPRESULT2
+      01000BBCH   PUBLIC    CODE     ---       ?C?FPUNDERFLOW
 
       ---         MODULE    ---      ---       ?C_STARTUP
       01000000H   PUBLIC    CODE     ---       ?C_STARTUP
 
+      ---         MODULE    ---      ---       ?C?CLDOPTR
+      01000BCAH   PUBLIC    CODE     ---       ?C?CLDOPTR
+
+      ---         MODULE    ---      ---       ?C?LNEG
+      01000BF7H   PUBLIC    CODE     ---       ?C?LNEG
+
 ******************************************************************************
-* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00FBH BYTE (12%) *
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 028CH BYTE (31%) *
 ******************************************************************************
 
-Program Size: data=12.0 xdata=0 const=17 code=249
+Program Size: data=33.0 xdata=0 const=0 code=1696
 LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,4 +1,4 @@
-#include"DHT11.h"
+#include<DHT11.h>
 
 void main()
 {
@@ -20,7 +20,7 @@ void main()
             COM_send(DHT11_string(byte3));
             COM_send(".");
             COM_send(DHT11_string(byte4));
-            COM_send("℃ ");
+            COM_send("℃");
             COM_send("当前湿度是:");
             COM_send(DHT11_string(byte1));
             COM_send(".");
@@ -30,7 +30,7 @@ void main()
         else
         {
             COM_send("校验失败！\n");
-        }  
+        }
     }
     DHT11_delay1s();
 }

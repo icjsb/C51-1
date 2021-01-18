@@ -10,27 +10,7 @@
                 "DEBUG",
                 "__UVISION_VERSION=526",
                 "__C51__",
-                "__VSCODE_C51__",
-                "reentrant=",
-                "compact=",
-                "small=",
-                "large=",
-                "data=",
-                "bdata=",
-                "idata=",
-                "pdata=",
-                "xdata=",
-                "code=",
-                "bit=char",
-                "sbit=char",
-                "sfr=char",
-                "sfr16=int",
-                "sfr32=int",
-                "interrupt=",
-                "using=",
-                "_at_=",
-                "_priority_=",
-                "_task_="
+                "__VSCODE_CPPTOOL"
             ],
             "intelliSenseMode": "${default}",
             "browse": {
@@ -39,7 +19,10 @@
                     "D:\\Chipenvironment\\keil\\C51\\INC\\*",
                     ".\\src\\*"
                 ]
-            }
+            },
+            "forcedInclude": [
+                ".\\..\\..\\..\\.vscode\\extensions\\cl.eide-1.22.0\\bin\\include\\internal_headers\\c51_intr.h"
+            ]
         }
     ],
     "version": 4
