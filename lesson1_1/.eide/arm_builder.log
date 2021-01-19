@@ -398,3 +398,6 @@
    在 ARM_Builder_V6.CmdGenerator.genOutputCommand(String linkerOutputFile)
    在 ARM_Builder_V6.Program.Main(String[] args)
 
+[2021-01-19 09:36:39]	Compilation failed at : "c:\Users\Varocol\Desktop\单片机\lesson1_1\src\DHT11.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+

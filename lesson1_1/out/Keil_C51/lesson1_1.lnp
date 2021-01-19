@@ -1,0 +1,3 @@
+
+.\out\Keil_C51\DHT11.o TO .\out\Keil_C51\lesson1_1
+PRINT (.\out\Keil_C51\lesson1_1.map) REMOVEUNUSED
