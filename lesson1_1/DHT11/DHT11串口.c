@@ -1,4 +1,4 @@
-#include<DHT11.h>
+#include"libraries\DHT11´®¿Ú.h"
 
 void main()
 {

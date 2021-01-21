@@ -1,4 +1,4 @@
-#include"12864libs.h"
+#include"libraries\12864libs.h"
 
 uchar str1[17]="年轻人不讲武德啊";
 

@@ -14,7 +14,7 @@ void   DHT11_delay1s();
 void   DHT11_init();
 void   DHT11_check();
 uchar  DHT11_readbyte();
-uchar* DHT11_string(uchar);
+uchar* DHT11_string(uchar,uchar);
 
 void   DHT11_delay40us()
 {
@@ -42,6 +42,7 @@ void   DHT11_delay1s()
 }
 void   DHT11_init()
 {
+    flag=1;
     DHT11_delay1s();
     DHT=1;
     DHT=0;
@@ -80,25 +81,38 @@ uchar  DHT11_readbyte()
     }
     return result;
 }
-uchar* DHT11_string(uchar T)
+uchar* DHT11_string(uchar ZS,uchar XS)
 {      
-    uchar xs;                     
-    float XS;                     
-    uchar i,j;
-
-    XS=T;
-    j=T==0?1:0;
-    while(XS>=1)
+    uchar i,count,tmp;
+    string[0]=':';
+    
+    count=ZS==0?1:0;
+    tmp=0;
+    while(ZS)
     {
-       XS/=10;
-       j++;
+        tmp=tmp*10+ZS%10;
+        ZS/=10;
+        count++;
     }
-    for(i=0;i<j;i++)
+    for(i=1;count--;i++)
     {
-       XS*=10;
-       xs=XS;
-       string [i]=xs+'0';
-       XS-=xs;
+        string [i]=tmp%10+'0';
+        tmp/=10;
+    }
+    string[i++]='.';
+
+    count=XS==0?1:0;
+    tmp=0;
+    while(XS)
+    {
+        tmp=tmp*10+XS%10;
+        XS/=10;
+        count++;
+    }
+    for(;count--;i++)
+    {
+        string [i]=tmp%10+'0';
+        tmp/=10;
     }
     string[i]='\0';
     return string;

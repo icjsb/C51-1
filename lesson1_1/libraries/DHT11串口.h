@@ -62,6 +62,7 @@ void   DHT11_delay1s()
 }
 void   DHT11_init()
 {
+    flag=1;
     DHT11_delay1s();
     DHT=1;
     DHT=0;

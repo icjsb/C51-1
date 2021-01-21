@@ -1,5 +1,5 @@
 //主文件用来组装不同模块
-#include"DS18B20.h"
+#include"libraries\DS18B20.h"
 
 void main()
 {

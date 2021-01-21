@@ -9,7 +9,7 @@ sbit SID=P2^6;               //RW
 sbit SCK=P2^5;               //EN
 
 /*函数声明*/
-
+void  LCD12864_clear_DDRAM();                //清屏
 void  LCD12864_sendbyte(uchar);              //发送字节,从高到低
 void  LCD12864_write_cmd(uchar);             //写指令,RS=L,RW=L
 void  LCD12864_write_data(uchar);            //写数据,RS=H,RW=L
@@ -26,7 +26,10 @@ uchar LCD12864_read_data();                  //读数据,RS=H,RW=H
 uchar LCD12864_read_status();                //读状态,RS=L,RW=H
 
 /*函数定义*/
-
+void  LCD12864_clear_DDRAM()
+{
+      LCD12864_write_cmd(0x01);
+}
 void  LCD12864_sendbyte(uchar Data)
 {
       uchar i;

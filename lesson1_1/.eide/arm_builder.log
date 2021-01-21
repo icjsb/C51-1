@@ -401,3 +401,18 @@
 [2021-01-19 09:36:39]	Compilation failed at : "c:\Users\Varocol\Desktop\单片机\lesson1_1\src\DHT11.c", Exit Code: 2
    在 ARM_Builder_V6.Program.Main(String[] args)
 
+[2021-01-19 11:34:42]	无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 ARM_Builder_V6.CmdGenerator.genOutputCommand(String linkerOutputFile)
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2021-01-19 11:34:51]	无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 ARM_Builder_V6.CmdGenerator.genOutputCommand(String linkerOutputFile)
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2021-01-19 13:11:46]	Compilation failed at : "c:\Users\Varocol\Desktop\单片机\lesson1_1\src\DHT11液晶显示.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2021-01-19 15:32:51]	无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 ARM_Builder_V6.CmdGenerator.genOutputCommand(String linkerOutputFile)
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
