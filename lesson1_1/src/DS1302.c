@@ -13,17 +13,16 @@ void main()
      DS1302_Write_Data(YearWrite,0x21);
      //设置1月份
      DS1302_Write_Data(MonthWrite,0x01);
-     //设置21号
-     DS1302_Write_Data(DateWrite,0x21);
-     //设置星期三
-     DS1302_Write_Data(DayWrite,0x03);
-     //设置10时,12小时制
-     DS1302_Write_Data(HourWrite,0x90);
-     //设置27分
-     DS1302_Write_Data(MinuteWrite,0x50);
-     //设置31秒
-     DS1302_Write_Data(SecondWrite,0x31);
-     
+     //设置22号
+     DS1302_Write_Data(DateWrite,0x22);
+     //设置星期四
+     DS1302_Write_Data(DayWrite,0x04);
+     //设置7时,12小时制
+     DS1302_Write_Data(HourWrite,0xA7);
+     //设置02分
+     DS1302_Write_Data(MinuteWrite,0x02);
+     //设置00秒
+     DS1302_Write_Data(SecondWrite,0x00);
      while(1)
      {    
           //LCD12864_clear_DDRAM();刷新屏幕
@@ -43,8 +42,14 @@ void main()
           temp=DS1302_Read_Data(HourRead);
           if(temp>>7)
           {
-               if((temp>>5)%2)LCD12864_showstring("PM",1,0);
-               else LCD12864_showstring("AM",1,0);
+               if((temp>>5)%2)
+               {
+                   LCD12864_showstring("PM",2,1);
+               }
+               else 
+               {
+                   LCD12864_showstring("AM",2,1);
+               }
           }
           
           temp=DS1302_Read_Data(DayRead);
@@ -75,7 +80,7 @@ void main()
           temp=DS1302_Read_Data(SecondRead);
           String_numtostring(DS1302_convert_Data(SecondRead,temp),str);
           LCD12864_showstring(str,3,7);
-          delay1ms(1000);
+          delay1ms(900);
           while(temp==DS1302_Read_Data(SecondRead));
      }
      

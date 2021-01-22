@@ -1,4 +1,4 @@
-LX51 LINKER/LOCATER V4.41                                                               01/21/2021  11:42:14  PAGE 1
+LX51 LINKER/LOCATER V4.41                                                               01/22/2021  19:38:26  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.41, INVOKED BY:
@@ -7,25 +7,29 @@ D:\CHIPENVIRONMENT\KEILC51\C51\BIN\LX51.EXE .\OUT\DEBUG\DS1302.O TO .\OUT\DEBUG\
 
 
 CPU MODE:     8051 MODE
-MEMORY MODEL: SMALL
+MEMORY MODEL: LARGE
 
 
 INPUT MODULES INCLUDED:
   .\OUT\DEBUG\DS1302.O (DS1302)
          COMMENT TYPE 0: C51 V9.00
-  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51S.LIB (?C_STARTUP)
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C_STARTUP)
          COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51S.LIB (?C?CLDPTR)
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C?CLDPTR)
          COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51S.LIB (?C?CLDOPTR)
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C?CLDOPTR)
          COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51S.LIB (?C?CSTPTR)
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C?CSTPTR)
          COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51S.LIB (?C?CSTOPTR)
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C?CSTOPTR)
          COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51S.LIB (?C?IMUL)
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C?IMUL)
          COMMENT TYPE 1: A51 / ASM51 Assembler
-  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51S.LIB (?C?UIDIV)
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C?UIDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C?IILDX)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\CHIPENVIRONMENT\KEILC51\C51\LIB\C51L.LIB (?C?ILDIX)
          COMMENT TYPE 1: A51 / ASM51 Assembler
 
 
@@ -33,9 +37,10 @@ ACTIVE MEMORY CLASSES OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DS1302)
 
 BASE        START       END         USED      MEMORY CLASS
 ==========================================================
-C:000000H   C:000000H   C:00FFFFH   0007CEH   CODE
-I:000000H   I:000000H   I:00007FH   000054H   DATA
+C:000000H   C:000000H   C:00FFFFH   000979H   CODE
+X:000000H   X:000000H   X:00FFFFH   00004CH   XDATA
 I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+I:000000H   I:000000H   I:00007FH   000008H   DATA
 
 
 MEMORY MAP OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DS1302)
@@ -46,47 +51,49 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 
 * * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
 000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
-000008H   000032H   00002BH   BYTE   UNIT     DATA           ?DT?DS1302
-000033H   000053H   000021H   BYTE   UNIT     DATA           _DATA_GROUP_
-000054H   000054H   000001H   BYTE   UNIT     IDATA          ?STACK
+000008H   000008H   000001H   BYTE   UNIT     IDATA          ?STACK
 
 * * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
 000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
 000003H   0007FFH   0007FDH   ---    ---      **GAP**
-000800H   000A42H   000243H   BYTE   UNIT     CODE           ?PR?MAIN?DS1302
-000A43H   000B23H   0000E1H   BYTE   UNIT     CODE           ?C?LIB_CODE
-000B24H   000BFDH   0000DAH   BYTE   UNIT     CODE           ?PR?_STRING_NUMTOSTRING?DS1302
-000BFEH   000CB0H   0000B3H   BYTE   UNIT     CODE           ?PR?_STRING_MERGESTRING?DS1302
-000CB1H   000D5DH   0000ADH   BYTE   UNIT     CODE           ?PR?_LCD12864_SHOWSTRING?DS1302
-000D5EH   000DC0H   000063H   BYTE   UNIT     CODE           ?PR?LCD12864_CLEAR_GDRAM?DS1302
-000DC1H   000E01H   000041H   BYTE   UNIT     CODE           ?CO?DS1302
-000E02H   000E39H   000038H   BYTE   UNIT     CODE           ?PR?_DS1302_READ_DATA?DS1302
-000E3AH   000E6EH   000035H   BYTE   UNIT     CODE           ?PR?_DS1302_WRITE_DATA?DS1302
-000E6FH   000EA3H   000035H   BYTE   UNIT     CODE           ?PR?LCD12864_RECEIVEBYTE?DS1302
-000EA4H   000EC9H   000026H   BYTE   UNIT     CODE           ?PR?_LCD12864_WRITE_DATA?DS1302
-000ECAH   000EEBH   000022H   BYTE   UNIT     CODE           ?PR?_LCD12864_POS?DS1302
-000EECH   000F0DH   000022H   BYTE   UNIT     CODE           ?PR?_STRING_STRLEN?DS1302
-000F0EH   000F2EH   000021H   BYTE   UNIT     CODE           ?PR?_DS1302_CONVERT_DATA?DS1302
-LX51 LINKER/LOCATER V4.41                                                             01/21/2021  11:42:14  PAGE 2
+000800H   000A8EH   00028FH   BYTE   UNIT     CODE           ?PR?MAIN?DS1302
+000A8FH   000BC3H   000135H   BYTE   UNIT     CODE           ?PR?_STRING_NUMTOSTRING?DS1302
+000BC4H   000CD4H   000111H   BYTE   UNIT     CODE           ?PR?_STRING_MERGESTRING?DS1302
+000CD5H   000DE1H   00010DH   BYTE   UNIT     CODE           ?C?LIB_CODE
+000DE2H   000EDCH   0000FBH   BYTE   UNIT     CODE           ?PR?_LCD12864_SHOWSTRING?DS1302
+000EDDH   000F55H   000079H   BYTE   UNIT     CODE           ?PR?LCD12864_CLEAR_GDRAM?DS1302
+000F56H   000F96H   000041H   BYTE   UNIT     CODE           ?CO?DS1302
+000F97H   000FD0H   00003AH   BYTE   UNIT     CODE           ?PR?_DS1302_READ_DATA?DS1302
+000FD1H   001007H   000037H   BYTE   UNIT     CODE           ?PR?_DS1302_WRITE_DATA?DS1302
+001008H   00103EH   000037H   BYTE   UNIT     CODE           ?PR?LCD12864_RECEIVEBYTE?DS1302
+00103FH   00106AH   00002CH   BYTE   UNIT     CODE           ?PR?_STRING_STRLEN?DS1302
+LX51 LINKER/LOCATER V4.41                                                             01/22/2021  19:38:26  PAGE 2
 
 
-000F2FH   000F4FH   000021H   BYTE   UNIT     CODE           ?PR?_LCD12864_WRITE_CMD?DS1302
-000F50H   000F6FH   000020H   BYTE   UNIT     CODE           ?PR?_LCD12864_SENDBYTE?DS1302
-000F70H   000F8FH   000020H   BYTE   UNIT     CODE           ?PR?_DELAY1MS?DS1302
-000F90H   000FA6H   000017H   BYTE   UNIT     CODE           ?PR?LCD12864_INIT?DS1302
-000FA7H   000FB2H   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
-000FB3H   000FBBH   000009H   BYTE   UNIT     CODE           ?PR?LCD12864_READ_STATUS?DS1302
-000FBCH   000FC3H   000008H   BYTE   UNIT     CODE           ?PR?LCD12864_CHECK_BUSY?DS1302
-000FC4H   000FCAH   000007H   BYTE   UNIT     CODE           ?PR?DS1302_INIT?DS1302
+00106BH   001093H   000029H   BYTE   UNIT     CODE           ?PR?_LCD12864_SENDBYTE?DS1302
+001094H   0010BAH   000027H   BYTE   UNIT     CODE           ?PR?_LCD12864_WRITE_DATA?DS1302
+0010BBH   0010DCH   000022H   BYTE   UNIT     CODE           ?PR?_DS1302_CONVERT_DATA?DS1302
+0010DDH   0010FEH   000022H   BYTE   UNIT     CODE           ?PR?_LCD12864_POS?DS1302
+0010FFH   00111EH   000020H   BYTE   UNIT     CODE           ?PR?_DELAY1MS?DS1302
+00111FH   00113AH   00001CH   BYTE   UNIT     CODE           ?PR?_LCD12864_WRITE_CMD?DS1302
+00113BH   001151H   000017H   BYTE   UNIT     CODE           ?PR?LCD12864_INIT?DS1302
+001152H   00115DH   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+00115EH   001166H   000009H   BYTE   UNIT     CODE           ?PR?LCD12864_READ_STATUS?DS1302
+001167H   00116EH   000008H   BYTE   UNIT     CODE           ?PR?LCD12864_CHECK_BUSY?DS1302
+00116FH   001175H   000007H   BYTE   UNIT     CODE           ?PR?DS1302_INIT?DS1302
+
+* * * * * * * * * * *  X D A T A   M E M O R Y  * * * * * * * * * * * * *
+000000H   00002AH   00002BH   BYTE   UNIT     XDATA          ?XD?DS1302
+00002BH   00004BH   000021H   BYTE   UNIT     XDATA          _XDATA_GROUP_
 
 * * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
    *DEL*:           000005H   BYTE   UNIT     CODE           ?PR?LCD12864_CLEAR_DDRAM?DS1302
-   *DEL*:           000069H   BYTE   UNIT     CODE           ?PR?_LCD12864_SET_CGRAM?DS1302
-   *DEL*:           000006H   BYTE   UNIT     DATA           ?DT?_LCD12864_SET_CGRAM?DS1302
-   *DEL*:           00000FH   BYTE   UNIT     CODE           ?PR?_LCD12864_DISPLAY_CGRAM?DS1302
-   *DEL*:           000001H   BYTE   UNIT     DATA           ?DT?_LCD12864_DISPLAY_CGRAM?DS1302
-   *DEL*:           000071H   BYTE   UNIT     CODE           ?PR?_LCD12864_DISPLAY_IMAGE?DS1302
-   *DEL*:           000005H   BYTE   UNIT     DATA           ?DT?_LCD12864_DISPLAY_IMAGE?DS1302
+   *DEL*:           000087H   BYTE   UNIT     CODE           ?PR?_LCD12864_SET_CGRAM?DS1302
+   *DEL*:           000006H   BYTE   UNIT     XDATA          ?XD?_LCD12864_SET_CGRAM?DS1302
+   *DEL*:           000014H   BYTE   UNIT     CODE           ?PR?_LCD12864_DISPLAY_CGRAM?DS1302
+   *DEL*:           000001H   BYTE   UNIT     XDATA          ?XD?_LCD12864_DISPLAY_CGRAM?DS1302
+   *DEL*:           000094H   BYTE   UNIT     CODE           ?PR?_LCD12864_DISPLAY_IMAGE?DS1302
+   *DEL*:           000005H   BYTE   UNIT     XDATA          ?XD?_LCD12864_DISPLAY_IMAGE?DS1302
    *DEL*:           000009H   BYTE   UNIT     CODE           ?PR?LCD12864_READ_DATA?DS1302
 
 
@@ -94,13 +101,13 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 OVERLAY MAP OF MODULE:   .\OUT\DEBUG\LESSON1_1 (DS1302)
 
 
-FUNCTION/MODULE                      BIT_GROUP   DATA_GROUP 
---> CALLED FUNCTION/MODULE          START  STOP  START  STOP
-============================================================
-?C_C51STARTUP                       ----- -----  ----- -----
+FUNCTION/MODULE                     XDATA_GROUP
+--> CALLED FUNCTION/MODULE          START  STOP
+===============================================
+?C_C51STARTUP                       ----- -----
   +--> ?PR?MAIN?DS1302
 
-MAIN/DS1302                         ----- -----  ----- -----
+MAIN/DS1302                         ----- -----
   +--> ?PR?LCD12864_INIT?DS1302
   +--> ?PR?DS1302_INIT?DS1302
   +--> ?PR?_DS1302_WRITE_DATA?DS1302
@@ -113,63 +120,63 @@ MAIN/DS1302                         ----- -----  ----- -----
   +--> ?PR?_LCD12864_SHOWSTRING?DS1302
   +--> ?PR?_DELAY1MS?DS1302
 
-LCD12864_INIT/DS1302                ----- -----  ----- -----
+LCD12864_INIT/DS1302                ----- -----
   +--> ?PR?LCD12864_CLEAR_GDRAM?DS1302
   +--> ?PR?_LCD12864_WRITE_CMD?DS1302
 
-LCD12864_CLEAR_GDRAM/DS1302         ----- -----  0033H 0034H
+LCD12864_CLEAR_GDRAM/DS1302         002BH 002CH
   +--> ?PR?_LCD12864_WRITE_CMD?DS1302
   +--> ?PR?_LCD12864_WRITE_DATA?DS1302
 
-_LCD12864_WRITE_CMD/DS1302          ----- -----  003BH 003BH
+_LCD12864_WRITE_CMD/DS1302          0033H 0033H
   +--> ?PR?LCD12864_CHECK_BUSY?DS1302
   +--> ?PR?_LCD12864_SENDBYTE?DS1302
 
-LCD12864_CHECK_BUSY/DS1302          ----- -----  ----- -----
+LCD12864_CHECK_BUSY/DS1302          ----- -----
   +--> ?PR?LCD12864_READ_STATUS?DS1302
 
-LCD12864_READ_STATUS/DS1302         ----- -----  ----- -----
+LX51 LINKER/LOCATER V4.41                                                             01/22/2021  19:38:26  PAGE 3
+
+
+LCD12864_READ_STATUS/DS1302         ----- -----
   +--> ?PR?_LCD12864_SENDBYTE?DS1302
   +--> ?PR?LCD12864_RECEIVEBYTE?DS1302
 
-_LCD12864_SENDBYTE/DS1302           ----- -----  ----- -----
+_LCD12864_SENDBYTE/DS1302           ----- -----
 
-LCD12864_RECEIVEBYTE/DS1302         ----- -----  ----- -----
-LX51 LINKER/LOCATER V4.41                                                             01/21/2021  11:42:14  PAGE 3
+LCD12864_RECEIVEBYTE/DS1302         ----- -----
 
-
-
-_LCD12864_WRITE_DATA/DS1302         ----- -----  003BH 003BH
+_LCD12864_WRITE_DATA/DS1302         0033H 0033H
   +--> ?PR?LCD12864_CHECK_BUSY?DS1302
   +--> ?PR?_LCD12864_SENDBYTE?DS1302
 
-DS1302_INIT/DS1302                  ----- -----  ----- -----
+DS1302_INIT/DS1302                  ----- -----
   +--> ?PR?_DS1302_WRITE_DATA?DS1302
 
-_DS1302_WRITE_DATA/DS1302           ----- -----  ----- -----
+_DS1302_WRITE_DATA/DS1302           ----- -----
 
-_DS1302_READ_DATA/DS1302            ----- -----  ----- -----
+_DS1302_READ_DATA/DS1302            ----- -----
 
-_DS1302_CONVERT_DATA/DS1302         ----- -----  ----- -----
+_DS1302_CONVERT_DATA/DS1302         ----- -----
 
-_STRING_NUMTOSTRING/DS1302          ----- -----  0033H 003DH
+_STRING_NUMTOSTRING/DS1302          002BH 0035H
   +--> ?PR?_DS1302_CONVERT_DATA?DS1302
 
-_STRING_STRLEN/DS1302               ----- -----  0033H 0035H
+_STRING_STRLEN/DS1302               002BH 002DH
 
-?CO?DS1302                          ----- -----  ----- -----
+?CO?DS1302                          ----- -----
 
-_STRING_MERGESTRING/DS1302          ----- -----  0033H 0053H
+_STRING_MERGESTRING/DS1302          002BH 004BH
 
-_LCD12864_SHOWSTRING/DS1302         ----- -----  0033H 003AH
+_LCD12864_SHOWSTRING/DS1302         002BH 0032H
   +--> ?PR?_LCD12864_POS?DS1302
   +--> ?PR?_LCD12864_WRITE_DATA?DS1302
   +--> ?PR?_LCD12864_WRITE_CMD?DS1302
 
-_LCD12864_POS/DS1302                ----- -----  ----- -----
+_LCD12864_POS/DS1302                ----- -----
   +--> ?PR?_LCD12864_WRITE_CMD?DS1302
 
-_DELAY1MS/DS1302                    ----- -----  ----- -----
+_DELAY1MS/DS1302                    ----- -----
 
 
 
@@ -178,48 +185,50 @@ PUBLIC SYMBOLS OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DS1302)
 
       VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
       =================================================
-      00000033H   DATA     BYTE      ?_LCD12864_showstring?BYTE
-      00000033H   DATA     BYTE      ?_String_mergestring?BYTE
-      01000A5CH   CODE     ---       ?C?CLDOPTR
-      01000A43H   CODE     ---       ?C?CLDPTR
+      0200002BH   XDATA    BYTE      ?_LCD12864_showstring?BYTE
+      0200002BH   XDATA    BYTE      ?_String_mergestring?BYTE
+      01000CEEH   CODE     ---       ?C?CLDOPTR
+      01000CD5H   CODE     ---       ?C?CLDPTR
       00000000H   NUMBER   ---       ?C?CODESEG
-      01000A9BH   CODE     ---       ?C?CSTOPTR
-      01000A89H   CODE     ---       ?C?CSTPTR
-      01000ABDH   CODE     ---       ?C?IMUL
-      01000ACFH   CODE     ---       ?C?UIDIV
+      01000D2DH   CODE     ---       ?C?CSTOPTR
+      01000D1BH   CODE     ---       ?C?CSTPTR
+      01000DB6H   CODE     ---       ?C?IILDX
+      01000DCCH   CODE     ---       ?C?ILDIX
+      01000D4FH   CODE     ---       ?C?IMUL
+      01000D61H   CODE     ---       ?C?UIDIV
       00000000H   NUMBER   ---       ?C?XDATASEG
       01000800H   CODE     ---       ?C_START
       01000000H   CODE     ---       ?C_STARTUP
-      01000F70H   CODE     ---       _delay1ms
-      01000F0EH   CODE     ---       _DS1302_convert_Data
-      01000E02H   CODE     ---       _DS1302_Read_Data
-      01000E3AH   CODE     ---       _DS1302_Write_Data
+      010010FFH   CODE     ---       _delay1ms
+      010010BBH   CODE     ---       _DS1302_convert_Data
+      01000F97H   CODE     ---       _DS1302_Read_Data
+      01000FD1H   CODE     ---       _DS1302_Write_Data
+LX51 LINKER/LOCATER V4.41                                                             01/22/2021  19:38:26  PAGE 4
+
+
 *DEL*:00000000H   CODE     ---       _LCD12864_display_CGRAM
 *DEL*:00000000H   CODE     ---       _LCD12864_display_image
-      01000ECAH   CODE     ---       _LCD12864_pos
-      01000F54H   CODE     ---       _LCD12864_sendbyte
+      010010DDH   CODE     ---       _LCD12864_pos
+      01001077H   CODE     ---       _LCD12864_sendbyte
 *DEL*:00000000H   CODE     ---       _LCD12864_SET_CGRAM
-      01000CB1H   CODE     ---       _LCD12864_showstring
-      01000F34H   CODE     ---       _LCD12864_write_cmd
-      01000EAEH   CODE     ---       _LCD12864_write_data
-      01000C0DH   CODE     ---       _String_mergestring
-LX51 LINKER/LOCATER V4.41                                                             01/21/2021  11:42:14  PAGE 4
-
-
-      01000B2FH   CODE     ---       _String_numtostring
-      01000EF2H   CODE     ---       _String_strlen
-      01000FC4H   CODE     ---       DS1302_init
-      01000FBCH   CODE     ---       LCD12864_check_busy
+      01000DE2H   CODE     ---       _LCD12864_showstring
+      01001123H   CODE     ---       _LCD12864_write_cmd
+      010010A3H   CODE     ---       _LCD12864_write_data
+      01000BD9H   CODE     ---       _String_mergestring
+      01000A9AH   CODE     ---       _String_numtostring
+      01001045H   CODE     ---       _String_strlen
+      0100116FH   CODE     ---       DS1302_init
+      01001167H   CODE     ---       LCD12864_check_busy
 *DEL*:00000000H   CODE     ---       LCD12864_clear_DDRAM
-      01000D5EH   CODE     ---       LCD12864_clear_GDRAM
-      01000F90H   CODE     ---       LCD12864_init
+      01000EDDH   CODE     ---       LCD12864_clear_GDRAM
+      0100113BH   CODE     ---       LCD12864_init
 *DEL*:00000000H   CODE     ---       LCD12864_read_data
-      01000FB3H   CODE     ---       LCD12864_read_status
-      01000E6FH   CODE     ---       LCD12864_receivebyte
+      0100115EH   CODE     ---       LCD12864_read_status
+      01001008H   CODE     ---       LCD12864_receivebyte
       01000800H   CODE     ---       main
-      0000001EH   DATA     ---       str
-      00000008H   DATA     ---       str1
-      0000001DH   DATA     BYTE      temp
+      02000016H   XDATA    ---       str
+      02000000H   XDATA    ---       str1
+      02000015H   XDATA    BYTE      temp
 
 
 
@@ -228,142 +237,142 @@ SYMBOL TABLE OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DS1302)
       VALUE       REP       CLASS    TYPE      SYMBOL NAME
       ====================================================
       ---         MODULE    ---      ---       DS1302
-      0000001EH   PUBLIC    DATA     ---       str
-      0000001DH   PUBLIC    DATA     BYTE      temp
-      00000008H   PUBLIC    DATA     ---       str1
+      02000016H   PUBLIC    XDATA    ---       str
+      02000015H   PUBLIC    XDATA    BYTE      temp
+      02000000H   PUBLIC    XDATA    ---       str1
       01000800H   PUBLIC    CODE     ---       main
-      01000F70H   PUBLIC    CODE     ---       _delay1ms
-      01000EF2H   PUBLIC    CODE     ---       _String_strlen
-      00000033H   PUBLIC    DATA     BYTE      ?_String_mergestring?BYTE
-      01000C0DH   PUBLIC    CODE     ---       _String_mergestring
-      01000B2FH   PUBLIC    CODE     ---       _String_numtostring
-      01000FB3H   PUBLIC    CODE     ---       LCD12864_read_status
-      01000E6FH   PUBLIC    CODE     ---       LCD12864_receivebyte
-      01000D5EH   PUBLIC    CODE     ---       LCD12864_clear_GDRAM
-      00000033H   PUBLIC    DATA     BYTE      ?_LCD12864_showstring?BYTE
-      01000CB1H   PUBLIC    CODE     ---       _LCD12864_showstring
-      01000FBCH   PUBLIC    CODE     ---       LCD12864_check_busy
-      01000F90H   PUBLIC    CODE     ---       LCD12864_init
-      01000ECAH   PUBLIC    CODE     ---       _LCD12864_pos
-      01000EAEH   PUBLIC    CODE     ---       _LCD12864_write_data
-      01000F34H   PUBLIC    CODE     ---       _LCD12864_write_cmd
-      01000F54H   PUBLIC    CODE     ---       _LCD12864_sendbyte
-      01000F0EH   PUBLIC    CODE     ---       _DS1302_convert_Data
-      01000E02H   PUBLIC    CODE     ---       _DS1302_Read_Data
-      01000E3AH   PUBLIC    CODE     ---       _DS1302_Write_Data
-      01000FC4H   PUBLIC    CODE     ---       DS1302_init
+      010010FFH   PUBLIC    CODE     ---       _delay1ms
+      01001045H   PUBLIC    CODE     ---       _String_strlen
+      0200002BH   PUBLIC    XDATA    BYTE      ?_String_mergestring?BYTE
+      01000BD9H   PUBLIC    CODE     ---       _String_mergestring
+      01000A9AH   PUBLIC    CODE     ---       _String_numtostring
+      0100115EH   PUBLIC    CODE     ---       LCD12864_read_status
+      01001008H   PUBLIC    CODE     ---       LCD12864_receivebyte
+      01000EDDH   PUBLIC    CODE     ---       LCD12864_clear_GDRAM
+      0200002BH   PUBLIC    XDATA    BYTE      ?_LCD12864_showstring?BYTE
+      01000DE2H   PUBLIC    CODE     ---       _LCD12864_showstring
+      01001167H   PUBLIC    CODE     ---       LCD12864_check_busy
+      0100113BH   PUBLIC    CODE     ---       LCD12864_init
+      010010DDH   PUBLIC    CODE     ---       _LCD12864_pos
+      010010A3H   PUBLIC    CODE     ---       _LCD12864_write_data
+      01001123H   PUBLIC    CODE     ---       _LCD12864_write_cmd
+      01001077H   PUBLIC    CODE     ---       _LCD12864_sendbyte
+      010010BBH   PUBLIC    CODE     ---       _DS1302_convert_Data
+      01000F97H   PUBLIC    CODE     ---       _DS1302_Read_Data
+      01000FD1H   PUBLIC    CODE     ---       _DS1302_Write_Data
+      0100116FH   PUBLIC    CODE     ---       DS1302_init
 
-      01000FC4H   BLOCK     CODE     ---       LVL=0
+      0100116FH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000E3AH   BLOCK     CODE     ---       LVL=0
-      01000E3AH   BLOCK     CODE     NEAR LAB  LVL=1
+      01000FD1H   BLOCK     CODE     ---       LVL=0
+      01000FD1H   BLOCK     CODE     NEAR LAB  LVL=1
       00000006H   SYMBOL    DATA     VOID      i
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000E02H   BLOCK     CODE     ---       LVL=0
-      01000E02H   BLOCK     CODE     NEAR LAB  LVL=1
+LX51 LINKER/LOCATER V4.41                                                             01/22/2021  19:38:26  PAGE 5
+
+
+      01000F97H   BLOCK     CODE     ---       LVL=0
+      01000F97H   BLOCK     CODE     NEAR LAB  LVL=1
       00000005H   SYMBOL    DATA     VOID      i
       00000006H   SYMBOL    DATA     VOID      result
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000F0EH   BLOCK     CODE     ---       LVL=0
-      ---         BLOCKEND  ---      ---       LVL=0
-LX51 LINKER/LOCATER V4.41                                                             01/21/2021  11:42:14  PAGE 5
-
-
-
-      01000F50H   BLOCK     CODE     ---       LVL=0
+      010010BBH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000F54H   BLOCK     CODE     ---       LVL=0
-      01000F54H   BLOCK     CODE     NEAR LAB  LVL=1
+      0100106BH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01001077H   BLOCK     CODE     ---       LVL=0
+      01001077H   BLOCK     CODE     NEAR LAB  LVL=1
       00000006H   SYMBOL    DATA     VOID      i
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000F2FH   BLOCK     CODE     ---       LVL=0
+      0100111FH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000F34H   BLOCK     CODE     ---       LVL=0
+      01001123H   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000EA4H   BLOCK     CODE     ---       LVL=0
+      01001094H   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000EAEH   BLOCK     CODE     ---       LVL=0
+      010010A3H   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000ECAH   BLOCK     CODE     ---       LVL=0
+      010010DDH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000F90H   BLOCK     CODE     ---       LVL=0
+      0100113BH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000FBCH   BLOCK     CODE     ---       LVL=0
+      01001167H   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000CB1H   BLOCK     CODE     ---       LVL=0
-      01000CBBH   BLOCK     CODE     NEAR LAB  LVL=1
-      0000003AH   SYMBOL    DATA     VOID      i
+      01000DE2H   BLOCK     CODE     ---       LVL=0
+      01000DF3H   BLOCK     CODE     NEAR LAB  LVL=1
+      02000032H   SYMBOL    XDATA    VOID      i
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000D5EH   BLOCK     CODE     ---       LVL=0
-      01000D5EH   BLOCK     CODE     NEAR LAB  LVL=1
-      00000033H   SYMBOL    DATA     VOID      i
-      00000034H   SYMBOL    DATA     VOID      j
+      01000EDDH   BLOCK     CODE     ---       LVL=0
+      01000EDDH   BLOCK     CODE     NEAR LAB  LVL=1
+      0200002BH   SYMBOL    XDATA    VOID      i
+      0200002CH   SYMBOL    XDATA    VOID      j
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000E6FH   BLOCK     CODE     ---       LVL=0
-      01000E6FH   BLOCK     CODE     NEAR LAB  LVL=1
+      01001008H   BLOCK     CODE     ---       LVL=0
+      01001008H   BLOCK     CODE     NEAR LAB  LVL=1
       00000007H   SYMBOL    DATA     VOID      tmp1
       00000006H   SYMBOL    DATA     VOID      tmp2
       00000005H   SYMBOL    DATA     VOID      i
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000FB3H   BLOCK     CODE     ---       LVL=0
+      0100115EH   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000B24H   BLOCK     CODE     ---       LVL=0
+      01000A8FH   BLOCK     CODE     ---       LVL=0
+LX51 LINKER/LOCATER V4.41                                                             01/22/2021  19:38:26  PAGE 6
+
+
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000B2FH   BLOCK     CODE     ---       LVL=0
-      01000B39H   BLOCK     CODE     NEAR LAB  LVL=1
-      00000038H   SYMBOL    DATA     VOID      i
-      0000003AH   SYMBOL    DATA     VOID      temp
-      0000003CH   SYMBOL    DATA     VOID      count
-      ---         BLOCKEND  ---      ---       LVL=1
-      ---         BLOCKEND  ---      ---       LVL=0
-LX51 LINKER/LOCATER V4.41                                                             01/21/2021  11:42:14  PAGE 6
-
-
-
-      01000BFEH   BLOCK     CODE     ---       LVL=0
-      ---         BLOCKEND  ---      ---       LVL=0
-
-      01000C0DH   BLOCK     CODE     ---       LVL=0
-      01000C13H   BLOCK     CODE     NEAR LAB  LVL=1
-      0000003EH   SYMBOL    DATA     VOID      temp
-      00000053H   SYMBOL    DATA     VOID      i
+      01000A9AH   BLOCK     CODE     ---       LVL=0
+      01000AADH   BLOCK     CODE     NEAR LAB  LVL=1
+      02000030H   SYMBOL    XDATA    VOID      i
+      02000032H   SYMBOL    XDATA    VOID      temp
+      02000034H   SYMBOL    XDATA    VOID      count
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000EECH   BLOCK     CODE     ---       LVL=0
+      01000BC4H   BLOCK     CODE     ---       LVL=0
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000EF2H   BLOCK     CODE     ---       LVL=0
-      01000EF8H   BLOCK     CODE     NEAR LAB  LVL=1
+      01000BD9H   BLOCK     CODE     ---       LVL=0
+      01000BE4H   BLOCK     CODE     NEAR LAB  LVL=1
+      02000036H   SYMBOL    XDATA    VOID      temp
+      0200004BH   SYMBOL    XDATA    VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100103FH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01001045H   BLOCK     CODE     ---       LVL=0
+      01001050H   BLOCK     CODE     NEAR LAB  LVL=1
       00000007H   SYMBOL    DATA     VOID      i
       ---         BLOCKEND  ---      ---       LVL=1
       ---         BLOCKEND  ---      ---       LVL=0
 
-      01000F70H   BLOCK     CODE     ---       LVL=0
-      01000F70H   BLOCK     CODE     NEAR LAB  LVL=1
+      010010FFH   BLOCK     CODE     ---       LVL=0
+      010010FFH   BLOCK     CODE     NEAR LAB  LVL=1
       00000004H   SYMBOL    DATA     VOID      i
       00000002H   SYMBOL    DATA     VOID      j
       ---         BLOCKEND  ---      ---       LVL=1
@@ -376,26 +385,36 @@ SYMBOL TABLE OF MODULE:  .\OUT\DEBUG\LESSON1_1 (DS1302)
       01000000H   PUBLIC    CODE     ---       ?C_STARTUP
 
       ---         MODULE    ---      ---       ?C?CLDPTR
-      01000A43H   PUBLIC    CODE     ---       ?C?CLDPTR
+      01000CD5H   PUBLIC    CODE     ---       ?C?CLDPTR
 
       ---         MODULE    ---      ---       ?C?CLDOPTR
-      01000A5CH   PUBLIC    CODE     ---       ?C?CLDOPTR
+      01000CEEH   PUBLIC    CODE     ---       ?C?CLDOPTR
 
       ---         MODULE    ---      ---       ?C?CSTPTR
-      01000A89H   PUBLIC    CODE     ---       ?C?CSTPTR
+      01000D1BH   PUBLIC    CODE     ---       ?C?CSTPTR
 
       ---         MODULE    ---      ---       ?C?CSTOPTR
-      01000A9BH   PUBLIC    CODE     ---       ?C?CSTOPTR
+      01000D2DH   PUBLIC    CODE     ---       ?C?CSTOPTR
 
       ---         MODULE    ---      ---       ?C?IMUL
-      01000ABDH   PUBLIC    CODE     ---       ?C?IMUL
+      01000D4FH   PUBLIC    CODE     ---       ?C?IMUL
 
       ---         MODULE    ---      ---       ?C?UIDIV
-      01000ACFH   PUBLIC    CODE     ---       ?C?UIDIV
+      01000D61H   PUBLIC    CODE     ---       ?C?UIDIV
+
+      ---         MODULE    ---      ---       ?C?IILDX
+      01000DB6H   PUBLIC    CODE     ---       ?C?IILDX
+
+      ---         MODULE    ---      ---       ?C?ILDIX
+      01000DCCH   PUBLIC    CODE     ---       ?C?ILDIX
+LX51 LINKER/LOCATER V4.41                                                             01/22/2021  19:38:26  PAGE 7
+
+
 
 ******************************************************************************
-* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 07D5H BYTE (97%) *
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 099AH BYTE (120%) *
 ******************************************************************************
 
-Program Size: data=85.0 xdata=0 const=0 code=1998
-LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
+Program Size: data=9.0 xdata=76 const=0 code=2425
+*** ERROR L250: CODE SIZE LIMIT IN RESTRICTED VERSION EXCEEDED
+    LIMIT:   0800H BYTES
