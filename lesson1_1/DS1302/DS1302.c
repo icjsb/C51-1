@@ -4,6 +4,11 @@
 #include"libraries\delay.h"
 uchar str[21],str1[21];
 uchar temp;
+uchar code str2 []=
+{
+0x00,0x00,0x00,0x00,0x7F,0xFC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0xF8,
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFE,0x00,0x00,0x00,0x00/*"三"*/
+};
 void main()
 {
      LCD12864_init();
@@ -13,16 +18,17 @@ void main()
      DS1302_Write_Data(YearWrite,0x21);
      //设置1月份
      DS1302_Write_Data(MonthWrite,0x01);
-     //设置22号
-     DS1302_Write_Data(DateWrite,0x22);
-     //设置星期四
-     DS1302_Write_Data(DayWrite,0x04);
-     //设置7时,12小时制
-     DS1302_Write_Data(HourWrite,0xA7);
-     //设置02分
-     DS1302_Write_Data(MinuteWrite,0x02);
+     //设置23号
+     DS1302_Write_Data(DateWrite,0x23);
+     //设置星期五
+     DS1302_Write_Data(DayWrite,0x06);
+     //设置10时,24小时制
+     DS1302_Write_Data(HourWrite,0x10);
+     //设置07分
+     DS1302_Write_Data(MinuteWrite,0x07);
      //设置00秒
      DS1302_Write_Data(SecondWrite,0x00);
+     LCD12864_SET_CGRAM(0,str2);
      while(1)
      {    
           //LCD12864_clear_DDRAM();刷新屏幕
@@ -59,7 +65,8 @@ void main()
                  break;
           case 2:LCD12864_showstring("星期二",1,3);
                  break;
-          case 3:LCD12864_showstring("星期三",1,3);
+          case 3:LCD12864_showstring("星期",1,3);
+                 LCD12864_display_CGRAM(0,1,5);
                  break;
           case 4:LCD12864_showstring("星期四",1,3);
                  break;

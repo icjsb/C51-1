@@ -17,7 +17,7 @@ void  LCD12864_pos(uchar,uchar);             //×Ö·ûÎ»ÖÃ,ÒÔÖĞÎÄ×Ö·û16*16µãÕóÎªµ¥Î
 void  LCD12864_init();                       //³õÊ¼»¯,ÉèÖÃ²¢¿Ú(ÓĞĞ©ĞÍºÅµÄ12864·Ö×óÓÒÆÁ)
 void  LCD12864_check_busy();                 //ÅĞ¶Ï12864ÊÇ·ñÔÚÃ¦,Ò»¶¨ÒªÓĞ,·ñÔò¿ÉÄÜµ¼ÖÂÊı¾İ¶ªÊ§
 void  LCD12864_SET_CGRAM(uchar,uchar*);      //Ğ´ÈëCGRAM
-void  LCD12864_display_CGRAM(uchar);         //ÏÔÊ¾CGRAM
+void  LCD12864_display_CGRAM(uchar,uchar,uchar);         //ÏÔÊ¾CGRAM
 void  LCD12864_showstring(uchar*,uint,uint); //²»ÄÜ°ÑvscodeÀïÃæÏÔÊ¾µÄºº×ÖËùÕ¼Î»Êıµ±×÷Êµ¼ÊÎ»Êı£¡£¡£¡ÖĞÎÄ¾ÍÊÇÕ¼2¸ö×Ö½ÚµÄ
 void  LCD12864_display_image(uchar*);        //GDRAM»æÍ¼Ä£Ê½
 void  LCD12864_clear_GDRAM();                //Çå¿ÕGDRAM
@@ -102,8 +102,9 @@ void  LCD12864_SET_CGRAM(uchar num,uchar *p)
           LCD12864_write_data(p[i*2+1]);
       }
 }
-void  LCD12864_display_CGRAM(uchar num)
+void  LCD12864_display_CGRAM(uchar num,uchar x,uchar y)
 {
+      LCD12864_pos(x,y);
       LCD12864_write_data(0x00);            //CGRAMµ±×÷Êı¾İµ÷ÓÃ
       LCD12864_write_data(num*2);
 }
