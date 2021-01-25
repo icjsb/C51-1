@@ -9,9 +9,9 @@
 
 
 uchar LS,MS;                      //LS用来存储低8位,MS用来存储高8位
-sbit DQ=P2^0;                     //DQ
 float temp;                       //记录温度值
-bit flag;                         //标识初始化是否成功
+sbit  DQ=P2^0;                    //DQ
+bit   flag;                       //标识初始化是否成功
 uchar string [10];                //存字符串
 
 void  DS18B20_init();              //初始化DS18b20
@@ -23,8 +23,8 @@ void  COM_init();                  //串口初始化
 void  COM_send(uchar*);            //串口发送数据
 void  TEMP_convert();              //将LS,MS转换成数据
 void  pause();                     //暂停1s
-uchar*DS18B20_string(float);      //float转换为字符串
-uchar DS18B20_read();             //读取数据
+uchar*DS18B20_string(float);       //float转换为字符串
+uchar DS18B20_read();              //读取数据
 
 
 void  DS18B20_init()

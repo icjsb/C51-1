@@ -1,3 +1,9 @@
+#ifndef uchar
+#define uchar unsigned char
+#endif
+#ifndef uint
+#define uint unsigned int
+#endif
 #include<REG52.H>
 void  COM_init();                  //串口初始化
 void  COM_send(uchar*);            //串口发送数据

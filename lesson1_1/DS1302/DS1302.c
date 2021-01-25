@@ -22,13 +22,15 @@ void main()
      DS1302_Write_Data(DateWrite,0x23);
      //设置星期五
      DS1302_Write_Data(DayWrite,0x06);
-     //设置10时,24小时制
-     DS1302_Write_Data(HourWrite,0x10);
-     //设置07分
-     DS1302_Write_Data(MinuteWrite,0x07);
+     //设置10时,12小时制
+     DS1302_Write_Data(HourWrite,0x90);
+     //设置52分
+     DS1302_Write_Data(MinuteWrite,0x52);
      //设置00秒
      DS1302_Write_Data(SecondWrite,0x00);
-     LCD12864_SET_CGRAM(0,str2);
+     //锁定1302
+     DS1302_Write_Data(ProtectWrite,0x80);
+     LCD12864_SET_CGRAM(0,str2);  
      while(1)
      {    
           //LCD12864_clear_DDRAM();刷新屏幕

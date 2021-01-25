@@ -3,7 +3,8 @@
         {
             "name": "win32",
             "includePath": [
-                "D:\\Chipenvironment\\keilC51\\C51\\INC"
+                "D:\\Chipenvironment\\keilC51\\C51\\INC",
+                ".\\src"
             ],
             "defines": [
                 "DEBUG",
@@ -15,7 +16,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "D:\\Chipenvironment\\keilC51\\C51\\INC\\*"
+                    "D:\\Chipenvironment\\keilC51\\C51\\INC\\*",
+                    ".\\src\\*"
                 ]
             },
             "forcedInclude": [

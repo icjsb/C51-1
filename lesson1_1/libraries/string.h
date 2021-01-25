@@ -7,10 +7,11 @@
 /*函数声明*/
 void  String_numtostring(uint,uchar*);
 void  String_mergestring(uchar*,uchar*,uchar,uchar,uchar*);      //合并字符串
-uchar String_strlen(uchar*);                              //计算字符串长度
+void  String_strcpy(uchar*,uchar*,uint);                         //拷贝字符串
+uchar String_strlen(uchar*);                                     //计算字符串长度
 
 /*函数定义*/
-void String_numtostring(uint num,uchar *p)
+void  String_numtostring(uint num,uchar *p)
 {
      uint i,temp,count;
      if(num<10){i=1;p[0]='0';}
@@ -46,6 +47,14 @@ void  String_mergestring(uchar*a,uchar*b,uchar len1,uchar len2,uchar*c)
           c[i]=temp[i];
       }
       c[i]='\0';
+}
+void  String_strcpy(uchar*a,uchar*b,uint len)
+{
+      uchar i;
+      for(i=0;i<len;i++)
+      {
+          a[i]=b[i];
+      }
 }
 uchar String_strlen(uchar*a)
 {
